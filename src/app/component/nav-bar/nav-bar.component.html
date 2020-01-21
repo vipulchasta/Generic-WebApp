@@ -1,0 +1,28 @@
+<header id="header">
+  <div id="topbar">
+    <div class="container">
+      <div *ngIf="socialLinks!=null" class="social-links">
+        <a *ngIf="socialLinks.twitter" href="{{socialLinks.twitter}}" class="twitter"><i class="fa fa-twitter"></i></a>
+        <a *ngIf="socialLinks.facebook" href="{{socialLinks.facebook}}" class="facebook"><i class="fa fa-facebook"></i></a>
+        <a *ngIf="socialLinks.linkedin" href="{{socialLinks.linkedin}}" class="linkedin"><i class="fa fa-linkedin"></i></a>
+        <a *ngIf="socialLinks.instagram" href="{{socialLinks.instagram}}" class="instagram"><i class="fa fa-instagram"></i></a>
+        <a *ngIf="socialLinks.github" href="{{socialLinks.github}}" class="github"><i class="fa fa-github"></i></a>
+        <a *ngIf="socialLinks.whatsapp" href="{{socialLinks.whatsapp}}" class="whatsapp"><i class="fa fa-whatsapp"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="logo float-left">
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <h1 class="text-light"><a routerLink="/" class="scrollto"><span>Rapid</span></a></h1>
+      <!-- <a href="#header" class="scrollto"><img src="img/logo.png" alt="" class="img-fluid"></a> -->
+    </div>
+    <nav class="main-nav float-right d-none d-lg-block">
+      <ul *ngIf="navbar!=null">
+        <li *ngFor="let navLink of navbar.navigationLinks" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+          <a routerLink="/{{navLink.link}}">{{navLink.title}}</a>
+        </li>
+      </ul>
+    </nav><!-- .main-nav -->    
+  </div>
+</header><!-- #header -->
