@@ -51,7 +51,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<ngx-spinner type=\"square-jelly-box\" color=\"black\"></ngx-spinner>\n\n<app-nav-bar></app-nav-bar>\n\n<router-outlet></router-outlet>\n\n  <main id=\"main\">\n\n    <!--==========================\n      Why Us Section\n    ============================-->\n    <section id=\"why-us\" class=\"wow fadeIn\">\n      <div class=\"container-fluid\">\n        \n        <header class=\"section-header\">\n          <h3>Why choose us?</h3>\n          <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.</p>\n        </header>\n\n        <div class=\"row\">\n\n          <div class=\"col-lg-6\">\n            <div class=\"why-us-img\">\n              <img src=\"assets/img/why-us.jpg\" alt=\"\" class=\"img-fluid\">\n            </div>\n          </div>\n\n          <div class=\"col-lg-6\">\n            <div class=\"why-us-content\">\n              <p>Molestiae omnis numquam corrupti omnis itaque. Voluptatum quidem impedit. Odio dolorum exercitationem est error omnis repudiandae ad dolorum sit.</p>\n              <p>\n                Explicabo repellendus quia labore. Non optio quo ea ut ratione et quaerat. Porro facilis deleniti porro consequatur\n                et temporibus. Labore est odio.\n\n                Odio omnis saepe qui. Veniam eaque ipsum. Ea quia voluptatum quis explicabo sed nihil repellat..\n              </p>\n\n              <div class=\"features wow bounceInUp clearfix\">\n                <i class=\"fa fa-diamond\" style=\"color: #f058dc;\"></i>\n                <h4>Corporis dolorem</h4>\n                <p>Commodi quia voluptatum. Est cupiditate voluptas quaerat officiis ex alias dignissimos et ipsum. Soluta at enim modi ut incidunt dolor et.</p>\n              </div>\n\n              <div class=\"features wow bounceInUp clearfix\">\n                <i class=\"fa fa-object-group\" style=\"color: #ffb774;\"></i>\n                <h4>Eum ut aspernatur</h4>\n                <p>Molestias eius rerum iusto voluptas et ab cupiditate aut enim. Assumenda animi occaecati. Quo dolore fuga quasi autem aliquid ipsum odit. Perferendis doloremque iure nulla aut.</p>\n              </div>\n              \n              <div class=\"features wow bounceInUp clearfix\">\n                <i class=\"fa fa-language\" style=\"color: #589af1;\"></i>\n                <h4>Voluptates dolores</h4>\n                <p>Voluptates nihil et quis omnis et eaque omnis sint aut. Ducimus dolorum aspernatur. Totam dolores ut enim ullam voluptas distinctio aut.</p>\n              </div>\n              \n            </div>\n\n          </div>\n\n        </div>\n\n      </div>\n\n      <div class=\"container\">\n        <div class=\"row counters\">\n\n          <div class=\"col-lg-3 col-6 text-center\">\n            <span data-toggle=\"counter-up\">274</span>\n            <p>Clients</p>\n          </div>\n\n          <div class=\"col-lg-3 col-6 text-center\">\n            <span data-toggle=\"counter-up\">421</span>\n            <p>Projects</p>\n          </div>\n\n          <div class=\"col-lg-3 col-6 text-center\">\n            <span data-toggle=\"counter-up\">1,364</span>\n            <p>Hours Of Support</p>\n          </div>\n\n          <div class=\"col-lg-3 col-6 text-center\">\n            <span data-toggle=\"counter-up\">18</span>\n            <p>Hard Workers</p>\n          </div>\n  \n        </div>\n\n      </div>\n    </section>\n\n    <app-call-to-action></app-call-to-action>\n\n  </main>\n\n\n<app-footer></app-footer>";
+    __webpack_exports__["default"] = "<ngx-spinner type=\"square-jelly-box\" color=\"black\"></ngx-spinner>\n\n<app-nav-bar></app-nav-bar>\n\n<router-outlet (activate)=\"onActivate($event)\"></router-outlet>\n\n  <main id=\"main\">\n\n    <!--==========================\n      Why Us Section\n    ============================-->\n    <section id=\"why-us\" class=\"wow fadeIn\">\n      <div class=\"container-fluid\">\n        \n        <header class=\"section-header\">\n          <h3>Why choose us?</h3>\n          <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.</p>\n        </header>\n\n        <div class=\"row\">\n\n          <div class=\"col-lg-6\">\n            <div class=\"why-us-img\">\n              <img src=\"assets/img/why-us.jpg\" alt=\"\" class=\"img-fluid\">\n            </div>\n          </div>\n\n          <div class=\"col-lg-6\">\n            <div class=\"why-us-content\">\n              <p>Molestiae omnis numquam corrupti omnis itaque. Voluptatum quidem impedit. Odio dolorum exercitationem est error omnis repudiandae ad dolorum sit.</p>\n              <p>\n                Explicabo repellendus quia labore. Non optio quo ea ut ratione et quaerat. Porro facilis deleniti porro consequatur\n                et temporibus. Labore est odio.\n\n                Odio omnis saepe qui. Veniam eaque ipsum. Ea quia voluptatum quis explicabo sed nihil repellat..\n              </p>\n\n              <div class=\"features wow bounceInUp clearfix\">\n                <i class=\"fa fa-diamond\" style=\"color: #f058dc;\"></i>\n                <h4>Corporis dolorem</h4>\n                <p>Commodi quia voluptatum. Est cupiditate voluptas quaerat officiis ex alias dignissimos et ipsum. Soluta at enim modi ut incidunt dolor et.</p>\n              </div>\n\n              <div class=\"features wow bounceInUp clearfix\">\n                <i class=\"fa fa-object-group\" style=\"color: #ffb774;\"></i>\n                <h4>Eum ut aspernatur</h4>\n                <p>Molestias eius rerum iusto voluptas et ab cupiditate aut enim. Assumenda animi occaecati. Quo dolore fuga quasi autem aliquid ipsum odit. Perferendis doloremque iure nulla aut.</p>\n              </div>\n              \n              <div class=\"features wow bounceInUp clearfix\">\n                <i class=\"fa fa-language\" style=\"color: #589af1;\"></i>\n                <h4>Voluptates dolores</h4>\n                <p>Voluptates nihil et quis omnis et eaque omnis sint aut. Ducimus dolorum aspernatur. Totam dolores ut enim ullam voluptas distinctio aut.</p>\n              </div>\n              \n            </div>\n\n          </div>\n\n        </div>\n\n      </div>\n\n      <div class=\"container\">\n        <div class=\"row counters\">\n\n          <div class=\"col-lg-3 col-6 text-center\">\n            <span data-toggle=\"counter-up\">274</span>\n            <p>Clients</p>\n          </div>\n\n          <div class=\"col-lg-3 col-6 text-center\">\n            <span data-toggle=\"counter-up\">421</span>\n            <p>Projects</p>\n          </div>\n\n          <div class=\"col-lg-3 col-6 text-center\">\n            <span data-toggle=\"counter-up\">1,364</span>\n            <p>Hours Of Support</p>\n          </div>\n\n          <div class=\"col-lg-3 col-6 text-center\">\n            <span data-toggle=\"counter-up\">18</span>\n            <p>Hard Workers</p>\n          </div>\n  \n        </div>\n\n      </div>\n    </section>\n\n    <app-call-to-action></app-call-to-action>\n\n  </main>\n\n\n<app-footer></app-footer>";
     /***/
   },
 
@@ -251,7 +251,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "\n<section id=\"about\" style=\"padding-top: 150px;\">\n\n    <div class=\"container\">\n        <div class=\"row\">\n\n        <div class=\"col-lg-5 col-md-6\">\n            <div class=\"about-img\">\n            <img src=\"assets/img/about-img.jpg\" alt=\"\">\n            </div>\n        </div>\n\n        <div class=\"col-lg-7 col-md-6\">\n            <div class=\"about-content\">\n            <h2>{{pageData.title}}</h2>\n            <h3>Odio sed id eos et laboriosam consequatur eos earum soluta.</h3>\n            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\n            <p>Aut dolor id. Sint aliquam consequatur ex ex labore. Et quis qui dolor nulla dolores neque. Aspernatur consectetur omnis numquam quaerat. Sed fugiat nisi. Officiis veniam molestiae. Et vel ut quidem alias veritatis repudiandae ut fugit. Est ut eligendi aspernatur nulla voluptates veniam iusto vel quisquam. Fugit ut maxime incidunt accusantium totam repellendus eum error. Et repudiandae eum iste qui et ut ab alias.</p>\n            <ul>\n                <li><i class=\"ion-android-checkmark-circle\"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>\n                <li><i class=\"ion-android-checkmark-circle\"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>\n                <li><i class=\"ion-android-checkmark-circle\"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>\n            </ul>\n            </div>\n        </div>\n        </div>\n    </div>\n\n</section><!-- #about -->";
+    __webpack_exports__["default"] = "<ng-container *ngFor=\"let websitePageSegment of pageData.body\">\n    <app-portfolio *ngIf=\"websitePageSegment.component=='portfolio'\"></app-portfolio>\n    <app-team *ngIf=\"websitePageSegment.component=='team'\"></app-team>\n    <app-features *ngIf=\"websitePageSegment.component=='features'\"></app-features>\n    <app-services *ngIf=\"websitePageSegment.component=='services'\"></app-services>\n    <app-pricing *ngIf=\"websitePageSegment.component=='pricing'\"></app-pricing>\n    <app-faq *ngIf=\"websitePageSegment.component=='faq'\"></app-faq>\n</ng-container>\n\n<section id=\"about\" style=\"padding-top: 150px;\">\n\n    <div class=\"container\">\n        <div class=\"row\">\n\n        <div class=\"col-lg-5 col-md-6\">\n            <div class=\"about-img\">\n            <img src=\"assets/img/about-img.jpg\" alt=\"\">\n            </div>\n        </div>\n\n        <div class=\"col-lg-7 col-md-6\">\n            <div class=\"about-content\">\n            <h2>{{pageData.title}}</h2>\n            <h3>Odio sed id eos et laboriosam consequatur eos earum soluta.</h3>\n            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\n            <p>Aut dolor id. Sint aliquam consequatur ex ex labore. Et quis qui dolor nulla dolores neque. Aspernatur consectetur omnis numquam quaerat. Sed fugiat nisi. Officiis veniam molestiae. Et vel ut quidem alias veritatis repudiandae ut fugit. Est ut eligendi aspernatur nulla voluptates veniam iusto vel quisquam. Fugit ut maxime incidunt accusantium totam repellendus eum error. Et repudiandae eum iste qui et ut ab alias.</p>\n            <ul>\n                <li><i class=\"ion-android-checkmark-circle\"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>\n                <li><i class=\"ion-android-checkmark-circle\"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>\n                <li><i class=\"ion-android-checkmark-circle\"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>\n            </ul>\n            </div>\n        </div>\n        </div>\n    </div>\n\n</section><!-- #about -->";
     /***/
   },
 
@@ -1038,6 +1038,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass(AppComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {}
+      }, {
+        key: "onActivate",
+        value: function onActivate(event) {
+          var scrollToTop = window.setInterval(function () {
+            var pos = window.pageYOffset;
+
+            if (pos > 0) {
+              window.scrollTo(0, pos - 20); // how far to scroll on each step
+            } else {
+              window.clearInterval(scrollToTop);
+            }
+          }, 16);
+        }
       }]);
 
       return AppComponent;
@@ -1631,7 +1644,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     }();
 
     FeaturesComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-      selector: 'app-page-features',
+      selector: 'app-features',
       template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! raw-loader!./features.component.html */
       "./node_modules/raw-loader/dist/cjs.js!./src/app/component/features/features.component.html")).default,
@@ -2009,6 +2022,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           var _this3 = this;
 
           this.spinner.show();
+          this.titleService.setTitle("BullTronics");
           setTimeout(function () {
             /** spinner ends after 500 m-seconds */
             _this3.spinner.hide();
@@ -2223,12 +2237,27 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           _this4.pageId = params["pageId"];
 
           _this4.renderViewPage();
+
+          _this4.onActivate();
         });
       }
 
       _createClass(PageShowHTMLComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {}
+      }, {
+        key: "onActivate",
+        value: function onActivate() {
+          var scrollToTop = window.setInterval(function () {
+            var pos = window.pageYOffset;
+
+            if (pos > 0) {
+              window.scrollTo(0, pos - 20); // how far to scroll on each step
+            } else {
+              window.clearInterval(scrollToTop);
+            }
+          }, 16);
+        }
       }, {
         key: "renderViewPage",
         value: function renderViewPage() {
@@ -2387,7 +2416,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     };
 
     PortfolioComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-      selector: 'app-page-portfolio',
+      selector: 'app-portfolio',
       template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! raw-loader!./portfolio.component.html */
       "./node_modules/raw-loader/dist/cjs.js!./src/app/component/portfolio/portfolio.component.html")).default,
@@ -2545,7 +2574,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     }();
 
     ServicesComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-      selector: 'app-page-services',
+      selector: 'app-services',
       template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! raw-loader!./services.component.html */
       "./node_modules/raw-loader/dist/cjs.js!./src/app/component/services/services.component.html")).default,
@@ -2677,7 +2706,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     };
 
     TeamComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-      selector: 'app-page-team',
+      selector: 'app-team',
       template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! raw-loader!./team.component.html */
       "./node_modules/raw-loader/dist/cjs.js!./src/app/component/team/team.component.html")).default,
