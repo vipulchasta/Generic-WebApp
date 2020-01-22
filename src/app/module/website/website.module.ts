@@ -12,11 +12,13 @@ export class WebsiteModule {
 }
 
 export class WebSiteData {
+  title : string;
   htmlPages : Map<string,WebsitePage>;
   navbar : NavBar;
   footer : Footer;
 
   constructor() {
+    this.title = "WebApp";
     this.htmlPages = new Map<string,WebsitePage>();
     this.navbar = new NavBar();
     this.footer = new Footer();
@@ -52,14 +54,29 @@ export class NavBar {
 }
 
 export class Footer {
+  title : string;
+  description : string;
+  newsletterDescription : string;
+  newsletterREST : string = null;
+  sendMessageDescription : string;
+  sendMessageREST : string = null;
+  copyrightDisclaimer : string;
+  creditsDisclaimer : string;
+
   contact : WebsiteContact;
   socialLinks : SocialLinks;
   navigationLinks : Array<object>;
 
   constructor() {
+    this.title = "BullTronics";
+    this.description = "Generic WebApp By Vipul Chasta";
+    this.newsletterDescription = "Subscribe to our newsletter for getting our latest updates.";
+	  this.sendMessageDescription = "Have any queries..? leave us a message we will get back to you soon.";
     this.contact = new WebsiteContact();
     this.socialLinks = new SocialLinks();
     this.navigationLinks = [];
+    this.copyrightDisclaimer = "&copy; Copyright <strong>BullTronics</strong>. All Rights Reserved";
+    this.creditsDisclaimer = "Template Designed by <a href='https://bootstrapmade.com/'>BootstrapMade</a>";
   }
 }
 

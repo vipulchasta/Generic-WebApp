@@ -4,7 +4,7 @@ import { Title } from '@angular/platform-browser';
 import { NgxSpinnerService } from "ngx-spinner";
 
 @Component({
-  selector: 'app-page-portfolio',
+  selector: 'app-portfolio',
   templateUrl: './portfolio.component.html',
   styleUrls: ['./portfolio.component.css']
 })

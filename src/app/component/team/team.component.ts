@@ -7,7 +7,7 @@ import { NgxSpinnerService } from "ngx-spinner";
 import { DataRetrievalService } from '../../service/data-retrieval/data-retrieval.service';
 
 @Component({
-  selector: 'app-page-team',
+  selector: 'app-team',
   templateUrl: './team.component.html',
   styleUrls: ['./team.component.css']
 })

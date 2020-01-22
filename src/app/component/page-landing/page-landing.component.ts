@@ -14,6 +14,7 @@ export class PageLandingComponent implements OnInit {
 
   ngOnInit() {
     this.spinner.show();
+    this.titleService.setTitle("BullTronics");
 
     setTimeout(() => {
       /** spinner ends after 500 m-seconds */

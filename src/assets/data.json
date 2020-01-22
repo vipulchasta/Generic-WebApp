@@ -73,7 +73,7 @@
 		"lastUpdateTime": "Sun Jan 14 07:51:03 IST 2019",
 		"body": [
 		  {
-			"component": "Portfolio",
+			"component": "portfolio",
 			"data": {
 			  "portfolioList": [
 				{
@@ -102,7 +102,7 @@
 		"lastUpdateTime": "Sun Jan 14 07:51:03 IST 2019",
 		"body": [
 		  {
-			"component": "Portfolio",
+			"component": "team",
 			"data": {
 			  "portfolioList": [
 				{
@@ -131,7 +131,7 @@
 		"lastUpdateTime": "Sun Jan 14 07:51:03 IST 2019",
 		"body": [
 		  {
-			"component": "Portfolio",
+			"component": "features",
 			"data": {
 			  "portfolioList": [
 				{
@@ -160,7 +160,7 @@
 		"lastUpdateTime": "Sun Jan 14 07:51:03 IST 2019",
 		"body": [
 		  {
-			"component": "Portfolio",
+			"component": "services",
 			"data": {
 			  "portfolioList": [
 				{
@@ -235,7 +235,8 @@
 		"github": "https://github.com/vipulchasta",
 		"hackerrank": "https://hackerrank.com/vipulchasta",
 		"whatsapp": "https://wa.me/917737770002/?text=I'm%20inquiring%20about%20the%20WebSite"
-	  }
+	  },
+	  "title": "BullTronics"
 	},
 	"footer": {
 	  "contact": {
@@ -279,6 +280,14 @@
 		  "title": "Privacy Policy",
 		  "link": "/privacy"
 		}
-	  ]
+	  ],
+	  "title": "BullTronics",
+	  "description": "Create your website on the go.<br> No need of any programming language knowledge.<br> Free, Opensource and will always be free. Pull requests are invited. <br> Navigate to github for the source code.",
+	  "newsletterDescription": "Subscribe to our newsletter for getting our latest updates.",
+	  "newsletterREST": "https://shop.BullTronics.com/hosting/json/adsfggrrg",
+	  "sendMessageDescription": "Have any queries..? leave us a message we will get back to you soon.",
+	  "sendMessageREST": "https://shop.BullTronics.com/hosting/json/adsfggrrg",
+	  "copyrightDisclaimer": "&copy; Copyright <strong>BullTronics</strong>. All Rights Reserved",
+	  "creditsDisclaimer": "Template Designed by <a href='https://bootstrapmade.com/'>BootstrapMade</a>"
 	}
   }

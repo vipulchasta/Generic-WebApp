@@ -11,15 +11,15 @@
               <div class="col-sm-6">
 
                 <div class="footer-info">
-                  <h3>Rapid</h3>
-                  <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+                  <h2>{{footer.title}}</h2>
+                  <p [innerHTML]="footer.description"></p>
                 </div>
 
                 <div class="footer-newsletter">
                   <h4>Our Newsletter</h4>
-                  <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem.</p>
-                  <form action="" method="post">
-                    <input type="email" name="email"><input type="submit"  value="Subscribe">
+                  <p [innerHTML]="footer.newsletterDescription"></p>
+                  <form (ngSubmit)="subscribeNewsletter();">
+                    <input [(ngModel)]="userEmail" type="email" name="email"><input type="submit"  value="Subscribe">
                   </form>
                 </div>
 
@@ -66,22 +66,22 @@
           <div class="form">
             
             <h4>Send us a message</h4>
-            <p>Eos ipsa est voluptates. Nostrum nam libero ipsa vero. Debitis quasi sit eaque numquam similique commodi harum aut temporibus.</p>
-            <form action="" method="post" role="form" class="contactForm">
+            <p [innerHTML]="footer.sendMessageDescription"></p>
+            <form (ngSubmit)="submitMessage();" action="" role="form" class="contactForm">
               <div class="form-group">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <input [(ngModel)]="userMessage.name" type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                 <div class="validation"></div>
               </div>
               <div class="form-group">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                <input [(ngModel)]="userMessage.emailId" type="email" class="form-control" name="emailId" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
                 <div class="validation"></div>
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <input [(ngModel)]="userMessage.subject" type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
                 <div class="validation"></div>
               </div>
               <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                <textarea [(ngModel)]="userMessage.content" class="form-control" name="content" rows="5" data-rule="minlen:50" data-msg="Please write something for us, at least 50 chars" placeholder="Message"></textarea>
                 <div class="validation"></div>
               </div>
 
@@ -94,25 +94,15 @@
 
         </div>
 
-        
-
       </div>
 
     </div>
   </div>
 
   <div class="container">
-    <div class="copyright">
-      &copy; Copyright <strong>Rapid</strong>. All Rights Reserved
+    <div class="copyright" [innerHTML]="footer.copyrightDisclaimer">
     </div>
-    <div class="credits">
-      <!--
-        All the links in the footer should remain intact.
-        You can delete the links only if you purchased the pro version.
-        Licensing information: https://bootstrapmade.com/license/
-        Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Rapid
-      -->
-      Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+    <div class="credits" [innerHTML]="footer.creditsDisclaimer">
     </div>
   </div>
 </footer>

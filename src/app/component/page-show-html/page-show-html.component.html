@@ -1,3 +1,11 @@
+<ng-container *ngFor="let websitePageSegment of pageData.body">
+    <app-portfolio *ngIf="websitePageSegment.component=='portfolio'"></app-portfolio>
+    <app-team *ngIf="websitePageSegment.component=='team'"></app-team>
+    <app-features *ngIf="websitePageSegment.component=='features'"></app-features>
+    <app-services *ngIf="websitePageSegment.component=='services'"></app-services>
+    <app-pricing *ngIf="websitePageSegment.component=='pricing'"></app-pricing>
+    <app-faq *ngIf="websitePageSegment.component=='faq'"></app-faq>
+</ng-container>
 
 <section id="about" style="padding-top: 150px;">
 
@@ -12,7 +20,7 @@
 
         <div class="col-lg-7 col-md-6">
             <div class="about-content">
-            <h2>About Us</h2>
+            <h2>{{pageData.title}}</h2>
             <h3>Odio sed id eos et laboriosam consequatur eos earum soluta.</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <p>Aut dolor id. Sint aliquam consequatur ex ex labore. Et quis qui dolor nulla dolores neque. Aspernatur consectetur omnis numquam quaerat. Sed fugiat nisi. Officiis veniam molestiae. Et vel ut quidem alias veritatis repudiandae ut fugit. Est ut eligendi aspernatur nulla voluptates veniam iusto vel quisquam. Fugit ut maxime incidunt accusantium totam repellendus eum error. Et repudiandae eum iste qui et ut ab alias.</p>
