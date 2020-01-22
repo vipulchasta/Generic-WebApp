@@ -110,7 +110,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<footer id=\"footer\" class=\"section-bg\">\n  <div class=\"footer-top\">\n    <div class=\"container\">\n\n      <div class=\"row\">\n\n        <div class=\"col-lg-6\">\n\n          <div class=\"row\">\n\n              <div class=\"col-sm-6\">\n\n                <div class=\"footer-info\">\n                  <h3>Rapid</h3>\n                  <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>\n                </div>\n\n                <div class=\"footer-newsletter\">\n                  <h4>Our Newsletter</h4>\n                  <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem.</p>\n                  <form action=\"\" method=\"post\">\n                    <input type=\"email\" name=\"email\"><input type=\"submit\"  value=\"Subscribe\">\n                  </form>\n                </div>\n\n              </div>\n\n              <div class=\"col-sm-6\">\n                <div class=\"footer-links\">\n                  <h4>Useful Links</h4>\n                  <ul>\n                    <li *ngFor=\"let navLink of footer.navigationLinks\">\n                      <a routerLink=\"/{{navLink.link}}\">{{navLink.title}}</a>\n                    </li>\n                  </ul>\n                </div>\n\n                <div class=\"footer-links\">\n                  <h4>Contact Us</h4>\n                  <p *ngIf=\"websiteContact!=null && websiteContact.address!=null\">\n                    {{websiteContact.address.line1}} <br>\n                    {{websiteContact.address.line2}}, {{websiteContact.address.pincode}}<br>\n                    {{websiteContact.address.country}}  <br>\n                    <strong>Phone:</strong> {{websiteContact.contactNo1}}<br>\n                    <strong>Email:</strong> {{websiteContact.email}}<br>\n                  </p>\n                </div>\n\n                <div *ngIf=\"socialLinks != null\" class=\"social-links\">\n                  <a *ngIf=\"socialLinks.twitter\" href=\"{{socialLinks.twitter}}\" class=\"twitter\"><i class=\"fa fa-twitter\"></i></a>\n                  <a *ngIf=\"socialLinks.facebook\" href=\"{{socialLinks.facebook}}\" class=\"facebook\"><i class=\"fa fa-facebook\"></i></a>\n                  <a *ngIf=\"socialLinks.linkedin\" href=\"{{socialLinks.linkedin}}\" class=\"linkedin\"><i class=\"fa fa-linkedin\"></i></a>\n                  <a *ngIf=\"socialLinks.instagram\" href=\"{{socialLinks.instagram}}\" class=\"instagram\"><i class=\"fa fa-instagram\"></i></a>\n                  <a *ngIf=\"socialLinks.github\" href=\"{{socialLinks.github}}\" class=\"github\"><i class=\"fa fa-github\"></i></a>\n                  <a *ngIf=\"socialLinks.whatsapp\" href=\"{{socialLinks.whatsapp}}\" class=\"whatsapp\"><i class=\"fa fa-whatsapp\"></i></a>\n                </div>\n\n              </div>\n\n          </div>\n\n        </div>\n\n        <div class=\"col-lg-6\">\n\n          <div class=\"form\">\n            \n            <h4>Send us a message</h4>\n            <p>Eos ipsa est voluptates. Nostrum nam libero ipsa vero. Debitis quasi sit eaque numquam similique commodi harum aut temporibus.</p>\n            <form action=\"\" method=\"post\" role=\"form\" class=\"contactForm\">\n              <div class=\"form-group\">\n                <input type=\"text\" name=\"name\" class=\"form-control\" id=\"name\" placeholder=\"Your Name\" data-rule=\"minlen:4\" data-msg=\"Please enter at least 4 chars\" />\n                <div class=\"validation\"></div>\n              </div>\n              <div class=\"form-group\">\n                <input type=\"email\" class=\"form-control\" name=\"email\" id=\"email\" placeholder=\"Your Email\" data-rule=\"email\" data-msg=\"Please enter a valid email\" />\n                <div class=\"validation\"></div>\n              </div>\n              <div class=\"form-group\">\n                <input type=\"text\" class=\"form-control\" name=\"subject\" id=\"subject\" placeholder=\"Subject\" data-rule=\"minlen:4\" data-msg=\"Please enter at least 8 chars of subject\" />\n                <div class=\"validation\"></div>\n              </div>\n              <div class=\"form-group\">\n                <textarea class=\"form-control\" name=\"message\" rows=\"5\" data-rule=\"required\" data-msg=\"Please write something for us\" placeholder=\"Message\"></textarea>\n                <div class=\"validation\"></div>\n              </div>\n\n              <div id=\"sendmessage\">Your message has been sent. Thank you!</div>\n              <div id=\"errormessage\"></div>\n\n              <div class=\"text-center\"><button type=\"submit\" title=\"Send Message\">Send Message</button></div>\n            </form>\n          </div>\n\n        </div>\n\n        \n\n      </div>\n\n    </div>\n  </div>\n\n  <div class=\"container\">\n    <div class=\"copyright\">\n      &copy; Copyright <strong>Rapid</strong>. All Rights Reserved\n    </div>\n    <div class=\"credits\">\n      <!--\n        All the links in the footer should remain intact.\n        You can delete the links only if you purchased the pro version.\n        Licensing information: https://bootstrapmade.com/license/\n        Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Rapid\n      -->\n      Designed by <a href=\"https://bootstrapmade.com/\">BootstrapMade</a>\n    </div>\n  </div>\n</footer>");
+/* harmony default export */ __webpack_exports__["default"] = ("<footer id=\"footer\" class=\"section-bg\">\n  <div class=\"footer-top\">\n    <div class=\"container\">\n\n      <div class=\"row\">\n\n        <div class=\"col-lg-6\">\n\n          <div class=\"row\">\n\n              <div class=\"col-sm-6\">\n\n                <div class=\"footer-info\">\n                  <h2>{{footer.title}}</h2>\n                  <p [innerHTML]=\"footer.description\"></p>\n                </div>\n\n                <div class=\"footer-newsletter\">\n                  <h4>Our Newsletter</h4>\n                  <p [innerHTML]=\"footer.newsletterDescription\"></p>\n                  <form (ngSubmit)=\"subscribeNewsletter();\">\n                    <input [(ngModel)]=\"userEmail\" type=\"email\" name=\"email\"><input type=\"submit\"  value=\"Subscribe\">\n                  </form>\n                </div>\n\n              </div>\n\n              <div class=\"col-sm-6\">\n                <div class=\"footer-links\">\n                  <h4>Useful Links</h4>\n                  <ul>\n                    <li *ngFor=\"let navLink of footer.navigationLinks\">\n                      <a routerLink=\"/{{navLink.link}}\">{{navLink.title}}</a>\n                    </li>\n                  </ul>\n                </div>\n\n                <div class=\"footer-links\">\n                  <h4>Contact Us</h4>\n                  <p *ngIf=\"websiteContact!=null && websiteContact.address!=null\">\n                    {{websiteContact.address.line1}} <br>\n                    {{websiteContact.address.line2}}, {{websiteContact.address.pincode}}<br>\n                    {{websiteContact.address.country}}  <br>\n                    <strong>Phone:</strong> {{websiteContact.contactNo1}}<br>\n                    <strong>Email:</strong> {{websiteContact.email}}<br>\n                  </p>\n                </div>\n\n                <div *ngIf=\"socialLinks != null\" class=\"social-links\">\n                  <a *ngIf=\"socialLinks.twitter\" href=\"{{socialLinks.twitter}}\" class=\"twitter\"><i class=\"fa fa-twitter\"></i></a>\n                  <a *ngIf=\"socialLinks.facebook\" href=\"{{socialLinks.facebook}}\" class=\"facebook\"><i class=\"fa fa-facebook\"></i></a>\n                  <a *ngIf=\"socialLinks.linkedin\" href=\"{{socialLinks.linkedin}}\" class=\"linkedin\"><i class=\"fa fa-linkedin\"></i></a>\n                  <a *ngIf=\"socialLinks.instagram\" href=\"{{socialLinks.instagram}}\" class=\"instagram\"><i class=\"fa fa-instagram\"></i></a>\n                  <a *ngIf=\"socialLinks.github\" href=\"{{socialLinks.github}}\" class=\"github\"><i class=\"fa fa-github\"></i></a>\n                  <a *ngIf=\"socialLinks.whatsapp\" href=\"{{socialLinks.whatsapp}}\" class=\"whatsapp\"><i class=\"fa fa-whatsapp\"></i></a>\n                </div>\n\n              </div>\n\n          </div>\n\n        </div>\n\n        <div class=\"col-lg-6\">\n\n          <div class=\"form\">\n            \n            <h4>Send us a message</h4>\n            <p [innerHTML]=\"footer.sendMessageDescription\"></p>\n            <form (ngSubmit)=\"submitMessage();\" action=\"\" role=\"form\" class=\"contactForm\">\n              <div class=\"form-group\">\n                <input [(ngModel)]=\"userMessage.name\" type=\"text\" name=\"name\" class=\"form-control\" id=\"name\" placeholder=\"Your Name\" data-rule=\"minlen:4\" data-msg=\"Please enter at least 4 chars\" />\n                <div class=\"validation\"></div>\n              </div>\n              <div class=\"form-group\">\n                <input [(ngModel)]=\"userMessage.emailId\" type=\"email\" class=\"form-control\" name=\"emailId\" id=\"email\" placeholder=\"Your Email\" data-rule=\"email\" data-msg=\"Please enter a valid email\" />\n                <div class=\"validation\"></div>\n              </div>\n              <div class=\"form-group\">\n                <input [(ngModel)]=\"userMessage.subject\" type=\"text\" class=\"form-control\" name=\"subject\" id=\"subject\" placeholder=\"Subject\" data-rule=\"minlen:4\" data-msg=\"Please enter at least 8 chars of subject\" />\n                <div class=\"validation\"></div>\n              </div>\n              <div class=\"form-group\">\n                <textarea [(ngModel)]=\"userMessage.content\" class=\"form-control\" name=\"content\" rows=\"5\" data-rule=\"minlen:50\" data-msg=\"Please write something for us, at least 50 chars\" placeholder=\"Message\"></textarea>\n                <div class=\"validation\"></div>\n              </div>\n\n              <div id=\"sendmessage\">Your message has been sent. Thank you!</div>\n              <div id=\"errormessage\"></div>\n\n              <div class=\"text-center\"><button type=\"submit\" title=\"Send Message\">Send Message</button></div>\n            </form>\n          </div>\n\n        </div>\n\n      </div>\n\n    </div>\n  </div>\n\n  <div class=\"container\">\n    <div class=\"copyright\" [innerHTML]=\"footer.copyrightDisclaimer\">\n    </div>\n    <div class=\"credits\" [innerHTML]=\"footer.creditsDisclaimer\">\n    </div>\n  </div>\n</footer>");
 
 /***/ }),
 
@@ -123,7 +123,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<header id=\"header\">\n  <div id=\"topbar\">\n    <div class=\"container\">\n      <div *ngIf=\"socialLinks!=null\" class=\"social-links\">\n        <a *ngIf=\"socialLinks.twitter\" href=\"{{socialLinks.twitter}}\" class=\"twitter\"><i class=\"fa fa-twitter\"></i></a>\n        <a *ngIf=\"socialLinks.facebook\" href=\"{{socialLinks.facebook}}\" class=\"facebook\"><i class=\"fa fa-facebook\"></i></a>\n        <a *ngIf=\"socialLinks.linkedin\" href=\"{{socialLinks.linkedin}}\" class=\"linkedin\"><i class=\"fa fa-linkedin\"></i></a>\n        <a *ngIf=\"socialLinks.instagram\" href=\"{{socialLinks.instagram}}\" class=\"instagram\"><i class=\"fa fa-instagram\"></i></a>\n        <a *ngIf=\"socialLinks.github\" href=\"{{socialLinks.github}}\" class=\"github\"><i class=\"fa fa-github\"></i></a>\n        <a *ngIf=\"socialLinks.whatsapp\" href=\"{{socialLinks.whatsapp}}\" class=\"whatsapp\"><i class=\"fa fa-whatsapp\"></i></a>\n      </div>\n    </div>\n  </div>\n  <div class=\"container\">\n    <div class=\"logo float-left\">\n      <!-- Uncomment below if you prefer to use an image logo -->\n      <h1 class=\"text-light\"><a routerLink=\"/\" class=\"scrollto\"><span>Rapid</span></a></h1>\n      <!-- <a href=\"#header\" class=\"scrollto\"><img src=\"img/logo.png\" alt=\"\" class=\"img-fluid\"></a> -->\n    </div>\n    <div id=\"navbarLoaded\" *ngIf=\"navbar!=null && navbar.navigationLinks!=null\"></div>\n    <nav class=\"main-nav float-right d-none d-lg-block\">\n      <ul *ngIf=\"navbar!=null\">\n        <li *ngFor=\"let navLink of navbar.navigationLinks\" routerLinkActive=\"active\" [routerLinkActiveOptions]=\"{ exact: true }\">\n          <a routerLink=\"/{{navLink.link}}\">{{navLink.title}}</a>\n        </li>\n      </ul>\n    </nav><!-- .main-nav -->    \n  </div>\n</header><!-- #header -->\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<header id=\"header\">\n  <div id=\"topbar\">\n    <div class=\"container\">\n      <div *ngIf=\"socialLinks!=null\" class=\"social-links\">\n        <a *ngIf=\"socialLinks.twitter\" href=\"{{socialLinks.twitter}}\" class=\"twitter\"><i class=\"fa fa-twitter\"></i></a>\n        <a *ngIf=\"socialLinks.facebook\" href=\"{{socialLinks.facebook}}\" class=\"facebook\"><i class=\"fa fa-facebook\"></i></a>\n        <a *ngIf=\"socialLinks.linkedin\" href=\"{{socialLinks.linkedin}}\" class=\"linkedin\"><i class=\"fa fa-linkedin\"></i></a>\n        <a *ngIf=\"socialLinks.instagram\" href=\"{{socialLinks.instagram}}\" class=\"instagram\"><i class=\"fa fa-instagram\"></i></a>\n        <a *ngIf=\"socialLinks.github\" href=\"{{socialLinks.github}}\" class=\"github\"><i class=\"fa fa-github\"></i></a>\n        <a *ngIf=\"socialLinks.whatsapp\" href=\"{{socialLinks.whatsapp}}\" class=\"whatsapp\"><i class=\"fa fa-whatsapp\"></i></a>\n      </div>\n    </div>\n  </div>\n  <div class=\"container\">\n    <div class=\"logo float-left\">\n      <!-- Uncomment below if you prefer to use an image logo -->\n      <h1 class=\"text-light\"><a routerLink=\"/\" class=\"scrollto\"><span>{{navbar.title}}</span></a></h1>\n      <!-- <a href=\"#header\" class=\"scrollto\"><img src=\"img/logo.png\" alt=\"\" class=\"img-fluid\"></a> -->\n    </div>\n    <div id=\"navbarLoaded\" *ngIf=\"navbar!=null && navbar.navigationLinks!=null\"></div>\n    <nav class=\"main-nav float-right d-none d-lg-block\">\n      <ul *ngIf=\"navbar!=null\">\n        <li *ngFor=\"let navLink of navbar.navigationLinks\" routerLinkActive=\"active\" [routerLinkActiveOptions]=\"{ exact: true }\">\n          <a routerLink=\"/{{navLink.link}}\">{{navLink.title}}</a>\n        </li>\n      </ul>\n    </nav><!-- .main-nav -->    \n  </div>\n</header><!-- #header -->\n");
 
 /***/ }),
 
@@ -162,7 +162,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n<section id=\"about\" style=\"padding-top: 150px;\">\n\n    <div class=\"container\">\n        <div class=\"row\">\n\n        <div class=\"col-lg-5 col-md-6\">\n            <div class=\"about-img\">\n            <img src=\"assets/img/about-img.jpg\" alt=\"\">\n            </div>\n        </div>\n\n        <div class=\"col-lg-7 col-md-6\">\n            <div class=\"about-content\">\n            <h2>About Us</h2>\n            <h3>Odio sed id eos et laboriosam consequatur eos earum soluta.</h3>\n            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\n            <p>Aut dolor id. Sint aliquam consequatur ex ex labore. Et quis qui dolor nulla dolores neque. Aspernatur consectetur omnis numquam quaerat. Sed fugiat nisi. Officiis veniam molestiae. Et vel ut quidem alias veritatis repudiandae ut fugit. Est ut eligendi aspernatur nulla voluptates veniam iusto vel quisquam. Fugit ut maxime incidunt accusantium totam repellendus eum error. Et repudiandae eum iste qui et ut ab alias.</p>\n            <ul>\n                <li><i class=\"ion-android-checkmark-circle\"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>\n                <li><i class=\"ion-android-checkmark-circle\"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>\n                <li><i class=\"ion-android-checkmark-circle\"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>\n            </ul>\n            </div>\n        </div>\n        </div>\n    </div>\n\n</section><!-- #about -->");
+/* harmony default export */ __webpack_exports__["default"] = ("\n<section id=\"about\" style=\"padding-top: 150px;\">\n\n    <div class=\"container\">\n        <div class=\"row\">\n\n        <div class=\"col-lg-5 col-md-6\">\n            <div class=\"about-img\">\n            <img src=\"assets/img/about-img.jpg\" alt=\"\">\n            </div>\n        </div>\n\n        <div class=\"col-lg-7 col-md-6\">\n            <div class=\"about-content\">\n            <h2>{{pageData.title}}</h2>\n            <h3>Odio sed id eos et laboriosam consequatur eos earum soluta.</h3>\n            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\n            <p>Aut dolor id. Sint aliquam consequatur ex ex labore. Et quis qui dolor nulla dolores neque. Aspernatur consectetur omnis numquam quaerat. Sed fugiat nisi. Officiis veniam molestiae. Et vel ut quidem alias veritatis repudiandae ut fugit. Est ut eligendi aspernatur nulla voluptates veniam iusto vel quisquam. Fugit ut maxime incidunt accusantium totam repellendus eum error. Et repudiandae eum iste qui et ut ab alias.</p>\n            <ul>\n                <li><i class=\"ion-android-checkmark-circle\"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>\n                <li><i class=\"ion-android-checkmark-circle\"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>\n                <li><i class=\"ion-android-checkmark-circle\"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>\n            </ul>\n            </div>\n        </div>\n        </div>\n    </div>\n\n</section><!-- #about -->");
 
 /***/ }),
 
@@ -898,6 +898,8 @@ let FooterComponent = class FooterComponent {
         this.footer = new src_app_module_website_website_module__WEBPACK_IMPORTED_MODULE_3__["Footer"]();
         this.websiteContact = new src_app_module_website_website_module__WEBPACK_IMPORTED_MODULE_3__["WebsiteContact"]();
         this.error = "";
+        this.userMessage = new Message();
+        this.userEmail = "";
     }
     ngOnInit() {
         this.dataRetrivalService.getFooterData().subscribe((data) => {
@@ -908,6 +910,30 @@ let FooterComponent = class FooterComponent {
             this.error = error;
             console.log(error);
         });
+    }
+    subscribeNewsletter() {
+        function validateEmail(email) {
+            var re = /\S+@\S+\.\S+/;
+            return re.test(email);
+        }
+        if (validateEmail(this.userEmail)) {
+            console.log("Newsletter Subscribed.");
+            console.log(this.userEmail);
+            alert("Newsletter Subscribed.");
+        }
+        else {
+            console.log("Invalid Message ");
+        }
+    }
+    submitMessage() {
+        if (this.userMessage.isValid()) {
+            console.log("Submit Message: ");
+            console.log(this.userMessage);
+            alert("Message Submitted.");
+        }
+        else {
+            console.log("Invalid Message ");
+        }
     }
 };
 FooterComponent.ctorParameters = () => [
@@ -921,6 +947,24 @@ FooterComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     })
 ], FooterComponent);
 
+class Message {
+    constructor() {
+        this.name = "";
+        this.emailId = "";
+        this.subject = "";
+        this.content = "";
+    }
+    isValid() {
+        function validateEmail(email) {
+            var re = /\S+@\S+\.\S+/;
+            return re.test(email);
+        }
+        if (this.name.length < 4 || this.subject.length < 4 || !validateEmail(this.emailId) || this.content.length < 50) {
+            return false;
+        }
+        return true;
+    }
+}
 
 
 /***/ }),
@@ -1446,6 +1490,7 @@ WebsiteModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 class WebSiteData {
     constructor() {
+        this.title = "WebApp";
         this.htmlPages = new Map();
         this.navbar = new NavBar();
         this.footer = new Footer();
@@ -1465,9 +1510,17 @@ class NavBar {
 }
 class Footer {
     constructor() {
+        this.newsletterREST = null;
+        this.sendMessageREST = null;
+        this.title = "BullTronics";
+        this.description = "Generic WebApp By Vipul Chasta";
+        this.newsletterDescription = "Subscribe to our newsletter for getting our latest updates.";
+        this.sendMessageDescription = "Have any queries..? leave us a message we will get back to you soon.";
         this.contact = new WebsiteContact();
         this.socialLinks = new SocialLinks();
         this.navigationLinks = [];
+        this.copyrightDisclaimer = "&copy; Copyright <strong>BullTronics</strong>. All Rights Reserved";
+        this.creditsDisclaimer = "Template Designed by <a href='https://bootstrapmade.com/'>BootstrapMade</a>";
     }
 }
 class SocialLinks {

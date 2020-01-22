@@ -201,6 +201,7 @@
 	  }
 	},
 	"navbar": {
+	  "title" : "BullTronics",
 	  "navigationLinks": [
 		{
 		  "title": "Home",
@@ -238,6 +239,15 @@
 	  }
 	},
 	"footer": {
+	  "title": "BullTronics",
+	  "description": "Create your website on the go.<br> No need of any programming language knowledge.<br> Free, Opensource and will always be free. Pull requests are invited. <br> Navigate to github for the source code.",
+	  "newsletterDescription": "Subscribe to our newsletter for getting our latest updates.",
+	  "newsletterREST": "https://shop.BullTronics.com/hosting/json/adsfggrrg",
+	  "sendMessageDescription": "Have any queries..? leave us a message we will get back to you soon.",
+	  "sendMessageREST": "https://shop.BullTronics.com/hosting/json/adsfggrrg",
+	  "copyrightDisclaimer" : "&copy; Copyright <strong>BullTronics</strong>. All Rights Reserved",
+	  "creditsDisclaimer" : "Template Designed by <a href='https://bootstrapmade.com/'>BootstrapMade</a>",
+
 	  "contact": {
 		"address": {
 		  "line1": "33 ISRO Layout",
@@ -281,4 +291,4 @@
 		}
 	  ]
 	}
-  }
+}
