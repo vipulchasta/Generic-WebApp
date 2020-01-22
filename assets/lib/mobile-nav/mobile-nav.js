@@ -1,5 +1,5 @@
 var myClockerNavBar = setInterval(function(){
-  var el = document.getElementById("header");
+  var el = document.getElementById("navbarLoaded");
   if(el != null) {
     //alert("loaded");
     clearInterval(myClockerNavBar);
