@@ -17,6 +17,7 @@
       <h1 class="text-light"><a routerLink="/" class="scrollto"><span>Rapid</span></a></h1>
       <!-- <a href="#header" class="scrollto"><img src="img/logo.png" alt="" class="img-fluid"></a> -->
     </div>
+    <div id="navbarLoaded" *ngIf="navbar!=null && navbar.navigationLinks!=null"></div>
     <nav class="main-nav float-right d-none d-lg-block">
       <ul *ngIf="navbar!=null">
         <li *ngFor="let navLink of navbar.navigationLinks" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">

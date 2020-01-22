@@ -43,7 +43,10 @@ export class PageShowHTMLComponent implements OnInit {
       }
 
       this.titleService.setTitle(this.pageData.title);
-      this.spinner.hide();
+      setTimeout(() => {
+        /** spinner ends after 500 m-seconds */
+        this.spinner.hide();
+      }, 800);
       
     },(error) =>{
       this.error = error;
