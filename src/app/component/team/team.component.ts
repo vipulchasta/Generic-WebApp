@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import { ActivatedRoute } from '@angular/router';
 
@@ -13,6 +13,8 @@ import { DataRetrievalService } from '../../service/data-retrieval/data-retrieva
 })
 export class TeamComponent implements OnInit {
 
+  @Input() data: any;
+  
   TeamMembers : any = {};
   defaultImage = '/assets/img/loading.gif';
 

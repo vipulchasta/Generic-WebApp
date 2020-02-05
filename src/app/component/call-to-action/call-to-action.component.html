@@ -2,11 +2,12 @@
     <div class="container">
         <div class="row">
         <div class="col-lg-9 text-center text-lg-left">
-            <h3 class="cta-title">Still not Impressed ..?</h3>
-            <p class="cta-text"> 1000+ Customers are already satisfied with our services, give us a chance and you will never regret for that.</p>
+            <h3 class="cta-title">{{data.title}}</h3>
+            <p class="cta-text" [innerHTML]="data.content"></p>
         </div>
         <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" routerLink="/contact">Contact Us</a>
+            <a *ngIf="data.actionRouterLink!=null" class="cta-btn align-middle" routerLink="{{data.actionRouterLink}}">{{data.actionText}}</a>
+            <a *ngIf="data.actionExternalLink!=null" class="cta-btn align-middle" href="{{data.actionExternalLink}}">{{data.actionText}}</a>
         </div>
         </div>
     </div>

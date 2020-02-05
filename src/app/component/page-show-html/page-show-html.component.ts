@@ -62,6 +62,7 @@ export class PageShowHTMLComponent implements OnInit {
     },(error) =>{
       this.error = error;
       console.log(error);
+      this.spinner.hide();
     });
   
   }

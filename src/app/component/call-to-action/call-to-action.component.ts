@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-call-to-action',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./call-to-action.component.css']
 })
 export class CallToActionComponent implements OnInit {
+
+  @Input() data: any;
 
   constructor() { }
 

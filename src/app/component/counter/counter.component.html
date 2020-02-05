@@ -1,0 +1,11 @@
+<div class="container">
+    <div class="row counters">
+
+        <div *ngFor="let counter of data.counterList" class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">{{counter.counter}}</span>
+            <p>{{counter.title}}</p>
+        </div>
+
+    </div>
+
+</div>

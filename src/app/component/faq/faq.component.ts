@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-faq',
@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FAQComponent implements OnInit {
 
+  @Input() data: any;
+  
   constructor() { }
 
   ngOnInit() {

@@ -31,6 +31,14 @@ import { ClientsSectionComponent } from './component/clients-section/clients-sec
 import { WebsiteModule } from './module/website/website.module';
 
 import { DataRetrievalService } from './service/data-retrieval/data-retrieval.service';
+import { CounterComponent } from './component/counter/counter.component';
+import { WhyUsComponent } from './component/why-us/why-us.component';
+import { LoginComponent } from './component/admin/login/login.component';
+import { DashboardComponent } from './component/admin/dashboard/dashboard.component';
+import { BlogPostComponent } from './component/blog-post/blog-post.component';
+import { LogoutComponent } from './component/admin/logout/logout.component';
+import { ManageWebsiteComponent } from './component/admin/manage-website/manage-website.component';
+import { ViewLogsComponent } from './component/admin/view-logs/view-logs.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +56,15 @@ import { DataRetrievalService } from './service/data-retrieval/data-retrieval.se
     FAQComponent,
     CallToActionComponent,
     FeaturesComponent,
-    ClientsSectionComponent
+    ClientsSectionComponent,
+    CounterComponent,
+    WhyUsComponent,
+    LoginComponent,
+    DashboardComponent,
+    BlogPostComponent,
+    LogoutComponent,
+    ManageWebsiteComponent,
+    ViewLogsComponent
   ],
   imports: [
     BrowserModule,

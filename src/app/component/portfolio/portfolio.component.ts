@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 
 import { NgxSpinnerService } from "ngx-spinner";
@@ -10,6 +10,8 @@ import { NgxSpinnerService } from "ngx-spinner";
 })
 export class PortfolioComponent implements OnInit {
 
+  @Input() data: any;
+  
   constructor(private spinner: NgxSpinnerService, private titleService: Title) {
     this.spinner.show();
   }
