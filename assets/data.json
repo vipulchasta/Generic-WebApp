@@ -15,16 +15,10 @@
 		"lastUpdateTime": "Sun Jan 14 07:51:03 IST 2019",
 		"body": [
 		  {
-			"component": "Portfolio",
+			"component": "blog-post",
 			"data": {
-			  "portfolioList": [
-				{
-				  "name": "E-Portfolio",
-				  "imageLink": "https://source.unsplash.com/TMgQMXoglsM/500x350",
-				  "externamLink": "https://google.com",
-				  "content": ""
-				}
-			  ]
+				"title" : "About Us",
+				"content" : "Create your website on the go. No need of any programming language knowledge. Free, Opensource and will always be free. Pull requests are invited. Navigate to github for the source code."
 			}
 		  }
 		]
@@ -104,12 +98,56 @@
 		  {
 			"component": "team",
 			"data": {
-			  "portfolioList": [
+			  "title" : "Team",
+			  "content" : "We have team of great people with great mind.",
+			  "teamList": [
 				{
-				  "name": "E-Portfolio",
-				  "imageLink": "https://source.unsplash.com/TMgQMXoglsM/500x350",
-				  "externamLink": "https://google.com",
-				  "content": ""
+				  "name": "Vipul Chasta",
+				  "title" : "Chief Executive Officer",
+				  "routerLink": null,
+				  "externalLink": null,
+				  "imageLink": "assets/img/team/team-1.jpg",
+				  "socialLink" : {
+					"twitter" : "https://twitter.com/vipulchasta",
+					"facebook" : "https://facebook.com/vipulchasta",
+					"linkedin" : "https://linkedin.com/in/vipulchasta"
+				  }
+				},
+				{
+				  "name": "Walter White",
+				  "title" : "Chief Executive Officer",
+				  "routerLink": null,
+				  "externalLink": null,
+				  "imageLink": "assets/img/team/team-2.jpg",
+				  "socialLink" : {
+					"twitter" : null,
+					"facebook" : null,
+					"linkedin" : null
+				  }
+				},
+				{
+				  "name": "Walter White",
+				  "title" : "Chief Executive Officer",
+				  "routerLink": null,
+				  "externalLink": null,
+				  "imageLink": "assets/img/team/team-3.jpg",
+				  "socialLink" : {
+					"twitter" : null,
+					"facebook" : null,
+					"linkedin" : null
+				  }
+				},
+				{
+				  "name": "Walter White",
+				  "title" : "Chief Executive Officer",
+				  "routerLink": null,
+				  "externalLink": null,
+				  "imageLink": "assets/img/team/team-4.jpg",
+				  "socialLink" : {
+					"twitter" : null,
+					"facebook" : null,
+					"linkedin" : null
+				  }
 				}
 			  ]
 			}
@@ -162,14 +200,68 @@
 		  {
 			"component": "services",
 			"data": {
-			  "portfolioList": [
+			  "title" : "Services",
+			  "content" : "We provide all type of WebDevelopment Services",
+			  "servicesList": [
 				{
-				  "name": "E-Portfolio",
-				  "imageLink": "https://source.unsplash.com/TMgQMXoglsM/500x350",
-				  "externamLink": "https://google.com",
-				  "content": ""
+				  "title": "Mobile App Solutions",
+				  "routerLink": null,
+				  "externalLink": null,
+				  "content": "Our mobile solutions match with high tech’s quality standards that help you to cater your audience on any horizontal device platforms. requirement in the industry to be fully mobile responsive.",
+				  "iconClass": "ion-ios-analytics-outline",
+				  "iconBackground": "red;"
+				},
+				{
+				  "title": "Web Development",
+				  "routerLink": null,
+				  "externalLink": null,
+				  "content": "Delivering advances web solutions that outshine in high-complexity environments to attain demanding business objectives.works exactly according your audience, you are at right place…",
+				  "iconClass": "ion-ios-bookmarks-outline",
+				  "iconBackground": "#e98e06;"
+				},
+				{
+				  "title": "UX/UI - DESIGN",
+				  "routerLink": null,
+				  "externalLink": null,
+				  "content": "We start every project by diving deep into interaction design to ensure that our approach to UX/UI is as holistic as possible.",
+				  "iconClass": "ion-ios-paper-outline",
+				  "iconBackground": "#3fcdc7;"
+				},
+				{
+				  "title": "QA, Maintenance & Support",
+				  "routerLink": null,
+				  "externalLink": null,
+				  "content": "We completely test the complete application with control maintenance and support services to apply urgent repairs for bugs, permanently fix risky issues, and simplify adoption of cutting-edge technology.",
+				  "iconClass": "ion-ios-speedometer-outline",
+				  "iconBackground": "#41cf2e;"
+				},
+				{
+				  "title": "Responsive Design",
+				  "routerLink": null,
+				  "externalLink": null,
+				  "content": "Customer-focused, creating mobile-friendly responsively designed experiences that deliver tangible business results, Appnovation helps brands navigate any and all facets of the digital landscape.",
+				  "iconClass": "ion-ios-world-outline",
+				  "iconBackground": "#2282ff;"
+				},
+				{
+				  "title": "SEO services",
+				  "routerLink": null,
+				  "externalLink": null,
+				  "content": "You can grow up your business with SEO strategies. Your site can get top 10 ranks in search engine like Google, Yahoo, MSN, etc..",
+				  "iconClass": "ion-ios-clock-outline",
+				  "iconBackground": "#8660fe;"
 				}
 			  ]
+			}
+		  },
+		  {
+			"component": "call-to-action",
+			"data": {
+				"title" : "Still not Impressed ..?",
+				"content" : "1000+ Customers are already satisfied with our services, give us a chance and you will never regret for that.",
+				"actionText" : "Contact Us",
+				"actionRouterLink" : "/contact",
+				"actionExternalLink" : null
 			}
 		  }
 		]

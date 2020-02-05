@@ -32,7 +32,85 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<ngx-spinner type=\"square-jelly-box\" color=\"black\"></ngx-spinner>\n\n<app-nav-bar></app-nav-bar>\n\n<router-outlet (activate)=\"onActivate($event)\"></router-outlet>\n\n  <main id=\"main\">\n\n    <!--==========================\n      Why Us Section\n    ============================-->\n    <section id=\"why-us\" class=\"wow fadeIn\">\n      <div class=\"container-fluid\">\n        \n        <header class=\"section-header\">\n          <h3>Why choose us?</h3>\n          <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.</p>\n        </header>\n\n        <div class=\"row\">\n\n          <div class=\"col-lg-6\">\n            <div class=\"why-us-img\">\n              <img src=\"assets/img/why-us.jpg\" alt=\"\" class=\"img-fluid\">\n            </div>\n          </div>\n\n          <div class=\"col-lg-6\">\n            <div class=\"why-us-content\">\n              <p>Molestiae omnis numquam corrupti omnis itaque. Voluptatum quidem impedit. Odio dolorum exercitationem est error omnis repudiandae ad dolorum sit.</p>\n              <p>\n                Explicabo repellendus quia labore. Non optio quo ea ut ratione et quaerat. Porro facilis deleniti porro consequatur\n                et temporibus. Labore est odio.\n\n                Odio omnis saepe qui. Veniam eaque ipsum. Ea quia voluptatum quis explicabo sed nihil repellat..\n              </p>\n\n              <div class=\"features wow bounceInUp clearfix\">\n                <i class=\"fa fa-diamond\" style=\"color: #f058dc;\"></i>\n                <h4>Corporis dolorem</h4>\n                <p>Commodi quia voluptatum. Est cupiditate voluptas quaerat officiis ex alias dignissimos et ipsum. Soluta at enim modi ut incidunt dolor et.</p>\n              </div>\n\n              <div class=\"features wow bounceInUp clearfix\">\n                <i class=\"fa fa-object-group\" style=\"color: #ffb774;\"></i>\n                <h4>Eum ut aspernatur</h4>\n                <p>Molestias eius rerum iusto voluptas et ab cupiditate aut enim. Assumenda animi occaecati. Quo dolore fuga quasi autem aliquid ipsum odit. Perferendis doloremque iure nulla aut.</p>\n              </div>\n              \n              <div class=\"features wow bounceInUp clearfix\">\n                <i class=\"fa fa-language\" style=\"color: #589af1;\"></i>\n                <h4>Voluptates dolores</h4>\n                <p>Voluptates nihil et quis omnis et eaque omnis sint aut. Ducimus dolorum aspernatur. Totam dolores ut enim ullam voluptas distinctio aut.</p>\n              </div>\n              \n            </div>\n\n          </div>\n\n        </div>\n\n      </div>\n\n      <div class=\"container\">\n        <div class=\"row counters\">\n\n          <div class=\"col-lg-3 col-6 text-center\">\n            <span data-toggle=\"counter-up\">274</span>\n            <p>Clients</p>\n          </div>\n\n          <div class=\"col-lg-3 col-6 text-center\">\n            <span data-toggle=\"counter-up\">421</span>\n            <p>Projects</p>\n          </div>\n\n          <div class=\"col-lg-3 col-6 text-center\">\n            <span data-toggle=\"counter-up\">1,364</span>\n            <p>Hours Of Support</p>\n          </div>\n\n          <div class=\"col-lg-3 col-6 text-center\">\n            <span data-toggle=\"counter-up\">18</span>\n            <p>Hard Workers</p>\n          </div>\n  \n        </div>\n\n      </div>\n    </section>\n\n    <app-call-to-action></app-call-to-action>\n\n  </main>\n\n\n<app-footer></app-footer>");
+/* harmony default export */ __webpack_exports__["default"] = ("<ngx-spinner type=\"square-jelly-box\" color=\"black\"></ngx-spinner>\n\n<app-nav-bar></app-nav-bar>\n\n  <main id=\"main\">\n\n    <router-outlet (activate)=\"onActivate($event)\"></router-outlet>\n\n  </main>\n\n<app-footer></app-footer>");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/component/admin/dashboard/dashboard.component.html":
+/*!**********************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/component/admin/dashboard/dashboard.component.html ***!
+  \**********************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<section id=\"intro\" class=\"clearfix\">\n    <div class=\"container d-flex h-100\">\n        <div class=\"row justify-content-center align-self-center\">\n        <div class=\"col-md-6 intro-info order-md-first order-last\">\n            <h2>Dashboard<br>for Your <span>Website!</span></h2>\n            <div>\n            <a href=\"#about\" class=\"btn-get-started scrollto\">Get Started</a>\n            </div>\n        </div>\n\n        <div class=\"col-md-6 intro-img order-md-last order-first\">\n            <img src=\"assets/img/intro-img.svg\" alt=\"\" class=\"img-fluid\">\n        </div>\n        </div>\n\n    </div>\n</section><!-- #intro -->");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/component/admin/login/login.component.html":
+/*!**************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/component/admin/login/login.component.html ***!
+  \**************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<br>\n<br>\n<br>\n\n<div class=\"container\">\n\n  <!-- Outer Row -->\n  <div class=\"row justify-content-center\">\n\n    <div class=\"col-xl-10 col-lg-12 col-md-9\">\n\n      <div class=\"card o-hidden border-0 shadow-lg my-5\">\n        <div class=\"card-body p-0\">\n          <!-- Nested Row within Card Body -->\n          <div class=\"row\">\n            <div class=\"col-lg-3\"></div>\n            <div class=\"col-lg-6\">\n              <div class=\"p-5\">\n                <div class=\"text-center\">\n                  <h1 class=\"h4 text-gray-900 mb-4\">Welcome Back!</h1>\n                </div>\n                <form class=\"user\">\n                  <div class=\"form-group\">\n                    <input type=\"password\" [(ngModel)]=\"inputUserPassword\" class=\"form-control form-control-user\" name=\"userPassword\" placeholder=\"Password\">\n                  </div>\n                  <a (click)=\"userLogin();\" class=\"btn btn-primary btn-user btn-block\">\n                    Login\n                  </a>\n                </form>\n                <hr>\n                <div class=\"text-center\">\n                  <a class=\"small\" href=\"https://me.BullTronics.com\">Need Help?</a>\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n\n    </div>\n\n  </div>\n\n</div>\n\n<br>\n<br>\n<br>\n<br>");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/component/admin/logout/logout.component.html":
+/*!****************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/component/admin/logout/logout.component.html ***!
+  \****************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<p>logout works!</p>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/component/admin/manage-website/manage-website.component.html":
+/*!********************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/component/admin/manage-website/manage-website.component.html ***!
+  \********************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<br>\n<br>\n<br>\n<br>\n<br>\n<br>\n<br>\n<ul>\n    <li *ngFor=\"let recipient of websiteData.htmlPages | keyvalue\">\n        {{recipient.key}} --> {{recipient.value}}\n    </li>\n</ul>");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/component/admin/view-logs/view-logs.component.html":
+/*!**********************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/component/admin/view-logs/view-logs.component.html ***!
+  \**********************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<p>view-logs works!</p>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/component/blog-post/blog-post.component.html":
+/*!****************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/component/blog-post/blog-post.component.html ***!
+  \****************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<section id=\"about\" style=\"padding-top: 150px;\">\n\n    <div class=\"container\">\n        <div class=\"row\">\n\n        <div class=\"col-lg-5 col-md-6\">\n            <div class=\"about-img\">\n            <img src=\"assets/img/about-img.jpg\" alt=\"\">\n            </div>\n        </div>\n\n        <div class=\"col-lg-7 col-md-6\">\n            <div class=\"about-content\">\n            <h2>{{data.title}}</h2>\n            <h3>Odio sed id eos et laboriosam consequatur eos earum soluta.</h3>\n            <p [innerHTML]=\"data.content\"></p>\n            <p>Aut dolor id. Sint aliquam consequatur ex ex labore. Et quis qui dolor nulla dolores neque. Aspernatur consectetur omnis numquam quaerat. Sed fugiat nisi. Officiis veniam molestiae. Et vel ut quidem alias veritatis repudiandae ut fugit. Est ut eligendi aspernatur nulla voluptates veniam iusto vel quisquam. Fugit ut maxime incidunt accusantium totam repellendus eum error. Et repudiandae eum iste qui et ut ab alias.</p>\n            <ul>\n                <li><i class=\"ion-android-checkmark-circle\"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>\n                <li><i class=\"ion-android-checkmark-circle\"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>\n                <li><i class=\"ion-android-checkmark-circle\"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>\n            </ul>\n            </div>\n        </div>\n        </div>\n    </div>\n\n</section><!-- #about -->");
 
 /***/ }),
 
@@ -45,7 +123,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<section id=\"call-to-action\" class=\"wow fadeInUp\">\n    <div class=\"container\">\n        <div class=\"row\">\n        <div class=\"col-lg-9 text-center text-lg-left\">\n            <h3 class=\"cta-title\">Still not Impressed ..?</h3>\n            <p class=\"cta-text\"> 1000+ Customers are already satisfied with our services, give us a chance and you will never regret for that.</p>\n        </div>\n        <div class=\"col-lg-3 cta-btn-container text-center\">\n            <a class=\"cta-btn align-middle\" routerLink=\"/contact\">Contact Us</a>\n        </div>\n        </div>\n    </div>\n</section><!-- #call-to-action -->");
+/* harmony default export */ __webpack_exports__["default"] = ("<section id=\"call-to-action\" class=\"wow fadeInUp\">\n    <div class=\"container\">\n        <div class=\"row\">\n        <div class=\"col-lg-9 text-center text-lg-left\">\n            <h3 class=\"cta-title\">{{data.title}}</h3>\n            <p class=\"cta-text\" [innerHTML]=\"data.content\"></p>\n        </div>\n        <div class=\"col-lg-3 cta-btn-container text-center\">\n            <a *ngIf=\"data.actionRouterLink!=null\" class=\"cta-btn align-middle\" routerLink=\"{{data.actionRouterLink}}\">{{data.actionText}}</a>\n            <a *ngIf=\"data.actionExternalLink!=null\" class=\"cta-btn align-middle\" href=\"{{data.actionExternalLink}}\">{{data.actionText}}</a>\n        </div>\n        </div>\n    </div>\n</section><!-- #call-to-action -->");
 
 /***/ }),
 
@@ -72,6 +150,19 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ("<p>clients works!</p>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/component/counter/counter.component.html":
+/*!************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/component/counter/counter.component.html ***!
+  \************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container\">\n    <div class=\"row counters\">\n\n        <div *ngFor=\"let counter of data.counterList\" class=\"col-lg-3 col-6 text-center\">\n            <span data-toggle=\"counter-up\">{{counter.counter}}</span>\n            <p>{{counter.title}}</p>\n        </div>\n\n    </div>\n\n</div>");
 
 /***/ }),
 
@@ -149,7 +240,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<p>page-not-found works!</p>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("\n<section id=\"about\" style=\"padding-top: 150px;\">\n\n    <div class=\"container\">\n        <div class=\"row\">\n\n        <div class=\"col-lg-5 col-md-6\">\n            <div class=\"about-img\">\n            <img src=\"assets/img/about-img.jpg\" alt=\"\">\n            </div>\n        </div>\n\n        <div class=\"col-lg-7 col-md-6\">\n            <div class=\"about-content\">\n            <h2>Page Not Found</h2>\n            <h3>Resource you are looking is currenly not available.</h3>\n            <p>The HTTP 404, 404 Not Found, 404, Page Not Found, or Server Not Found error message is a Hypertext Transfer Protocol standard response code, in computer network communications, to indicate that the browser was able to communicate with a given server, but the server could not find what was requested.</p>\n            <ul>\n                <li><i class=\"ion-android-checkmark-circle\"></i> Check your target URL.</li>\n                <li><i class=\"ion-android-checkmark-circle\"></i> Check the domain name.</li>\n                <li><i class=\"ion-android-checkmark-circle\"></i> Contact us.</li>\n            </ul>\n            </div>\n        </div>\n        </div>\n    </div>\n\n</section><!-- #about -->");
 
 /***/ }),
 
@@ -162,7 +253,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<ng-container *ngFor=\"let websitePageSegment of pageData.body\">\n    <app-portfolio *ngIf=\"websitePageSegment.component=='portfolio'\"></app-portfolio>\n    <app-team *ngIf=\"websitePageSegment.component=='team'\"></app-team>\n    <app-features *ngIf=\"websitePageSegment.component=='features'\"></app-features>\n    <app-services *ngIf=\"websitePageSegment.component=='services'\"></app-services>\n    <app-pricing *ngIf=\"websitePageSegment.component=='pricing'\"></app-pricing>\n    <app-faq *ngIf=\"websitePageSegment.component=='faq'\"></app-faq>\n</ng-container>\n\n<section id=\"about\" style=\"padding-top: 150px;\">\n\n    <div class=\"container\">\n        <div class=\"row\">\n\n        <div class=\"col-lg-5 col-md-6\">\n            <div class=\"about-img\">\n            <img src=\"assets/img/about-img.jpg\" alt=\"\">\n            </div>\n        </div>\n\n        <div class=\"col-lg-7 col-md-6\">\n            <div class=\"about-content\">\n            <h2>{{pageData.title}}</h2>\n            <h3>Odio sed id eos et laboriosam consequatur eos earum soluta.</h3>\n            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\n            <p>Aut dolor id. Sint aliquam consequatur ex ex labore. Et quis qui dolor nulla dolores neque. Aspernatur consectetur omnis numquam quaerat. Sed fugiat nisi. Officiis veniam molestiae. Et vel ut quidem alias veritatis repudiandae ut fugit. Est ut eligendi aspernatur nulla voluptates veniam iusto vel quisquam. Fugit ut maxime incidunt accusantium totam repellendus eum error. Et repudiandae eum iste qui et ut ab alias.</p>\n            <ul>\n                <li><i class=\"ion-android-checkmark-circle\"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>\n                <li><i class=\"ion-android-checkmark-circle\"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>\n                <li><i class=\"ion-android-checkmark-circle\"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>\n            </ul>\n            </div>\n        </div>\n        </div>\n    </div>\n\n</section><!-- #about -->");
+/* harmony default export */ __webpack_exports__["default"] = ("<ng-container *ngFor=\"let websitePageSegment of pageData.body\">\n    <app-portfolio *ngIf=\"websitePageSegment.component=='portfolio'\" [data]=\"websitePageSegment.data\"></app-portfolio>\n    <app-team *ngIf=\"websitePageSegment.component=='team'\" [data]=\"websitePageSegment.data\"></app-team>\n    <app-features *ngIf=\"websitePageSegment.component=='features'\" [data]=\"websitePageSegment.data\"></app-features>\n    <app-services *ngIf=\"websitePageSegment.component=='services'\" [data]=\"websitePageSegment.data\"></app-services>\n    <app-pricing *ngIf=\"websitePageSegment.component=='pricing'\" [data]=\"websitePageSegment.data\"></app-pricing>\n    <app-faq *ngIf=\"websitePageSegment.component=='faq'\" [data]=\"websitePageSegment.data\"></app-faq>\n    <app-call-to-action *ngIf=\"websitePageSegment.component=='call-to-action'\" [data]=\"websitePageSegment.data\"></app-call-to-action>\n    <app-blog-post *ngIf=\"websitePageSegment.component=='blog-post'\" [data]=\"websitePageSegment.data\"></app-blog-post>\n</ng-container>");
 
 /***/ }),
 
@@ -175,7 +266,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n    <!--==========================\n      Portfolio Section\n    ============================-->\n    <section id=\"portfolio\" class=\"section-bg\" style=\"padding-top: 150px;\">\n      <div class=\"container\">\n\n        <header class=\"section-header\">\n          <h3 class=\"section-title\">Our Portfolio</h3>\n        </header>\n\n        <div class=\"row\">\n          <div class=\"col-lg-12\">\n            <ul id=\"portfolio-flters\">\n              <li data-filter=\"*\" class=\"filter-active\">All</li>\n              <li data-filter=\".filter-app\">App</li>\n              <li data-filter=\".filter-card\">Card</li>\n              <li data-filter=\".filter-web\">Web</li>\n            </ul>\n          </div>\n        </div>\n\n        <div class=\"row portfolio-container\">\n\n          <div class=\"col-lg-4 col-md-6 portfolio-item filter-app\">\n            <div class=\"portfolio-wrap\">\n              <img src=\"assets/img/portfolio/app1.jpg\" class=\"img-fluid\" alt=\"\">\n              <div class=\"portfolio-info\">\n                <h4><a href=\"#\">App 1</a></h4>\n                <p>App</p>\n                <div>\n                  <a href=\"assets/img/portfolio/app1.jpg\" data-lightbox=\"portfolio\" data-title=\"App 1\" class=\"link-preview\" title=\"Preview\"><i class=\"ion ion-eye\"></i></a>\n                  <a href=\"#\" class=\"link-details\" title=\"More Details\"><i class=\"ion ion-android-open\"></i></a>\n                </div>\n              </div>\n            </div>\n          </div>\n\n          <div class=\"col-lg-4 col-md-6 portfolio-item filter-web\" data-wow-delay=\"0.1s\">\n            <div class=\"portfolio-wrap\">\n              <img src=\"assets/img/portfolio/web3.jpg\" class=\"img-fluid\" alt=\"\">\n              <div class=\"portfolio-info\">\n                <h4><a href=\"#\">Web 3</a></h4>\n                <p>Web</p>\n                <div>\n                  <a href=\"assets/img/portfolio/web3.jpg\" class=\"link-preview\" data-lightbox=\"portfolio\" data-title=\"Web 3\" title=\"Preview\"><i class=\"ion ion-eye\"></i></a>\n                  <a href=\"#\" class=\"link-details\" title=\"More Details\"><i class=\"ion ion-android-open\"></i></a>\n                </div>\n              </div>\n            </div>\n          </div>\n\n          <div class=\"col-lg-4 col-md-6 portfolio-item filter-app\" data-wow-delay=\"0.2s\">\n            <div class=\"portfolio-wrap\">\n              <img src=\"assets/img/portfolio/app2.jpg\" class=\"img-fluid\" alt=\"\">\n              <div class=\"portfolio-info\">\n                <h4><a href=\"#\">App 2</a></h4>\n                <p>App</p>\n                <div>\n                  <a href=\"assets/img/portfolio/app2.jpg\" class=\"link-preview\" data-lightbox=\"portfolio\" data-title=\"App 2\" title=\"Preview\"><i class=\"ion ion-eye\"></i></a>\n                  <a href=\"#\" class=\"link-details\" title=\"More Details\"><i class=\"ion ion-android-open\"></i></a>\n                </div>\n              </div>\n            </div>\n          </div>\n\n          <div class=\"col-lg-4 col-md-6 portfolio-item filter-card\">\n            <div class=\"portfolio-wrap\">\n              <img src=\"assets/img/portfolio/card2.jpg\" class=\"img-fluid\" alt=\"\">\n              <div class=\"portfolio-info\">\n                <h4><a href=\"#\">Card 2</a></h4>\n                <p>Card</p>\n                <div>\n                  <a href=\"assets/img/portfolio/card2.jpg\" class=\"link-preview\" data-lightbox=\"portfolio\" data-title=\"Card 2\" title=\"Preview\"><i class=\"ion ion-eye\"></i></a>\n                  <a href=\"#\" class=\"link-details\" title=\"More Details\"><i class=\"ion ion-android-open\"></i></a>\n                </div>\n              </div>\n            </div>\n          </div>\n\n          <div class=\"col-lg-4 col-md-6 portfolio-item filter-web\" data-wow-delay=\"0.1s\">\n            <div class=\"portfolio-wrap\">\n              <img src=\"assets/img/portfolio/web2.jpg\" class=\"img-fluid\" alt=\"\">\n              <div class=\"portfolio-info\">\n                <h4><a href=\"#\">Web 2</a></h4>\n                <p>Web</p>\n                <div>\n                  <a href=\"assets/img/portfolio/web2.jpg\" class=\"link-preview\" data-lightbox=\"portfolio\" data-title=\"Web 2\" title=\"Preview\"><i class=\"ion ion-eye\"></i></a>\n                  <a href=\"#\" class=\"link-details\" title=\"More Details\"><i class=\"ion ion-android-open\"></i></a>\n                </div>\n              </div>\n            </div>\n          </div>\n\n          <div class=\"col-lg-4 col-md-6 portfolio-item filter-app\" data-wow-delay=\"0.2s\">\n            <div class=\"portfolio-wrap\">\n              <img src=\"assets/img/portfolio/app3.jpg\" class=\"img-fluid\" alt=\"\">\n              <div class=\"portfolio-info\">\n                <h4><a href=\"#\">App 3</a></h4>\n                <p>App</p>\n                <div>\n                  <a href=\"assets/img/portfolio/app3.jpg\" class=\"link-preview\" data-lightbox=\"portfolio\" data-title=\"App 3\" title=\"Preview\"><i class=\"ion ion-eye\"></i></a>\n                  <a href=\"#\" class=\"link-details\" title=\"More Details\"><i class=\"ion ion-android-open\"></i></a>\n                </div>\n              </div>\n            </div>\n          </div>\n\n          <div class=\"col-lg-4 col-md-6 portfolio-item filter-card\">\n            <div class=\"portfolio-wrap\">\n              <img src=\"assets/img/portfolio/card1.jpg\" class=\"img-fluid\" alt=\"\">\n              <div class=\"portfolio-info\">\n                <h4><a href=\"#\">Card 1</a></h4>\n                <p>Card</p>\n                <div>\n                  <a href=\"assets/img/portfolio/card1.jpg\" class=\"link-preview\" data-lightbox=\"portfolio\" data-title=\"Card 1\" title=\"Preview\"><i class=\"ion ion-eye\"></i></a>\n                  <a href=\"#\" class=\"link-details\" title=\"More Details\"><i class=\"ion ion-android-open\"></i></a>\n                </div>\n              </div>\n            </div>\n          </div>\n\n          <div class=\"col-lg-4 col-md-6 portfolio-item filter-card\" data-wow-delay=\"0.1s\">\n            <div class=\"portfolio-wrap\">\n              <img src=\"assets/img/portfolio/card3.jpg\" class=\"img-fluid\" alt=\"\">\n              <div class=\"portfolio-info\">\n                <h4><a href=\"#\">Card 3</a></h4>\n                <p>Card</p>\n                <div>\n                  <a href=\"assets/img/portfolio/card3.jpg\" class=\"link-preview\" data-lightbox=\"portfolio\" data-title=\"Card 3\" title=\"Preview\"><i class=\"ion ion-eye\"></i></a>\n                  <a href=\"#\" class=\"link-details\" title=\"More Details\"><i class=\"ion ion-android-open\"></i></a>\n                </div>\n              </div>\n            </div>\n          </div>\n\n          <div class=\"col-lg-4 col-md-6 portfolio-item filter-web\" data-wow-delay=\"0.2s\">\n            <div class=\"portfolio-wrap\">\n              <img src=\"assets/img/portfolio/web1.jpg\" class=\"img-fluid\" alt=\"\">\n              <div class=\"portfolio-info\">\n                <h4><a href=\"#\">Web 1</a></h4>\n                <p>Web</p>\n                <div>\n                  <a href=\"assets/img/portfolio/web1.jpg\" class=\"link-preview\" data-lightbox=\"portfolio\" data-title=\"Web 1\" title=\"Preview\"><i class=\"ion ion-eye\"></i></a>\n                  <a href=\"#\" class=\"link-details\" title=\"More Details\"><i class=\"ion ion-android-open\"></i></a>\n                </div>\n              </div>\n            </div>\n          </div>\n\n        </div>\n\n      </div>\n    </section><!-- #portfolio -->");
+/* harmony default export */ __webpack_exports__["default"] = ("<!--==========================\n  Portfolio Section\n============================-->\n<section id=\"portfolio\" class=\"section-bg\">\n  <div class=\"container\">\n\n    <header class=\"section-header\">\n      <h3 class=\"section-title\">Our Portfolio</h3>\n    </header>\n\n    <div class=\"row\">\n      <div class=\"col-lg-12\">\n        <ul id=\"portfolio-flters\">\n          <li data-filter=\"*\" class=\"filter-active\">All</li>\n          <li data-filter=\".filter-app\">App</li>\n          <li data-filter=\".filter-card\">Card</li>\n          <li data-filter=\".filter-web\">Web</li>\n        </ul>\n      </div>\n    </div>\n\n    <div class=\"row portfolio-container\" style=\"position: relative; height: 1081.05px;\">\n\n      <div class=\"col-lg-4 col-md-6 portfolio-item filter-app\" style=\"position: absolute; left: 0px; top: 0px;\">\n        <div class=\"portfolio-wrap\">\n          <img src=\"/assets/img/portfolio/app1.jpg\" class=\"img-fluid\" alt=\"\">\n          <div class=\"portfolio-info\">\n            <h4><a href=\"#\">App 1</a></h4>\n            <p>App</p>\n            <div>\n              <a href=\"/assets/img/portfolio/app1.jpg\" data-lightbox=\"portfolio\" data-title=\"App 1\" class=\"link-preview\" title=\"Preview\"><i class=\"ion ion-eye\"></i></a>\n              <a href=\"#\" class=\"link-details\" title=\"More Details\"><i class=\"ion ion-android-open\"></i></a>\n            </div>\n          </div>\n        </div>\n      </div>\n\n      <div class=\"col-lg-4 col-md-6 portfolio-item filter-web\" data-wow-delay=\"0.1s\" style=\"position: absolute; left: 380px; top: 0px;\">\n        <div class=\"portfolio-wrap\">\n          <img src=\"/assets/img/portfolio/web3.jpg\" class=\"img-fluid\" alt=\"\">\n          <div class=\"portfolio-info\">\n            <h4><a href=\"#\">Web 3</a></h4>\n            <p>Web</p>\n            <div>\n              <a href=\"/assets/img/portfolio/web3.jpg\" class=\"link-preview\" data-lightbox=\"portfolio\" data-title=\"Web 3\" title=\"Preview\"><i class=\"ion ion-eye\"></i></a>\n              <a href=\"#\" class=\"link-details\" title=\"More Details\"><i class=\"ion ion-android-open\"></i></a>\n            </div>\n          </div>\n        </div>\n      </div>\n\n      <div class=\"col-lg-4 col-md-6 portfolio-item filter-app\" data-wow-delay=\"0.2s\" style=\"position: absolute; left: 760px; top: 0px;\">\n        <div class=\"portfolio-wrap\">\n          <img src=\"/assets/img/portfolio/app2.jpg\" class=\"img-fluid\" alt=\"\">\n          <div class=\"portfolio-info\">\n            <h4><a href=\"#\">App 2</a></h4>\n            <p>App</p>\n            <div>\n              <a href=\"/assets/img/portfolio/app2.jpg\" class=\"link-preview\" data-lightbox=\"portfolio\" data-title=\"App 2\" title=\"Preview\"><i class=\"ion ion-eye\"></i></a>\n              <a href=\"#\" class=\"link-details\" title=\"More Details\"><i class=\"ion ion-android-open\"></i></a>\n            </div>\n          </div>\n        </div>\n      </div>\n\n      <div class=\"col-lg-4 col-md-6 portfolio-item filter-card\" style=\"position: absolute; left: 760px; top: 226px;\">\n        <div class=\"portfolio-wrap\">\n          <img src=\"/assets/img/portfolio/card2.jpg\" class=\"img-fluid\" alt=\"\">\n          <div class=\"portfolio-info\">\n            <h4><a href=\"#\">Card 2</a></h4>\n            <p>Card</p>\n            <div>\n              <a href=\"/assets/img/portfolio/card2.jpg\" class=\"link-preview\" data-lightbox=\"portfolio\" data-title=\"Card 2\" title=\"Preview\"><i class=\"ion ion-eye\"></i></a>\n              <a href=\"#\" class=\"link-details\" title=\"More Details\"><i class=\"ion ion-android-open\"></i></a>\n            </div>\n          </div>\n        </div>\n      </div>\n\n      <div class=\"col-lg-4 col-md-6 portfolio-item filter-web\" data-wow-delay=\"0.1s\" style=\"position: absolute; left: 380px; top: 264px;\">\n        <div class=\"portfolio-wrap\">\n          <img src=\"/assets/img/portfolio/web2.jpg\" class=\"img-fluid\" alt=\"\">\n          <div class=\"portfolio-info\">\n            <h4><a href=\"#\">Web 2</a></h4>\n            <p>Web</p>\n            <div>\n              <a href=\"/assets/img/portfolio/web2.jpg\" class=\"link-preview\" data-lightbox=\"portfolio\" data-title=\"Web 2\" title=\"Preview\"><i class=\"ion ion-eye\"></i></a>\n              <a href=\"#\" class=\"link-details\" title=\"More Details\"><i class=\"ion ion-android-open\"></i></a>\n            </div>\n          </div>\n        </div>\n      </div>\n\n      <div class=\"col-lg-4 col-md-6 portfolio-item filter-app\" data-wow-delay=\"0.2s\" style=\"position: absolute; left: 0px; top: 384px;\">\n        <div class=\"portfolio-wrap\">\n          <img src=\"/assets/img/portfolio/app3.jpg\" class=\"img-fluid\" alt=\"\">\n          <div class=\"portfolio-info\">\n            <h4><a href=\"#\">App 3</a></h4>\n            <p>App</p>\n            <div>\n              <a href=\"/assets/img/portfolio/app3.jpg\" class=\"link-preview\" data-lightbox=\"portfolio\" data-title=\"App 3\" title=\"Preview\"><i class=\"ion ion-eye\"></i></a>\n              <a href=\"#\" class=\"link-details\" title=\"More Details\"><i class=\"ion ion-android-open\"></i></a>\n            </div>\n          </div>\n        </div>\n      </div>\n\n      <div class=\"col-lg-4 col-md-6 portfolio-item filter-card\" style=\"position: absolute; left: 0px; top: 646px;\">\n        <div class=\"portfolio-wrap\">\n          <img src=\"/assets/img/portfolio/card1.jpg\" class=\"img-fluid\" alt=\"\">\n          <div class=\"portfolio-info\">\n            <h4><a href=\"#\">Card 1</a></h4>\n            <p>Card</p>\n            <div>\n              <a href=\"/assets/img/portfolio/card1.jpg\" class=\"link-preview\" data-lightbox=\"portfolio\" data-title=\"Card 1\" title=\"Preview\"><i class=\"ion ion-eye\"></i></a>\n              <a href=\"#\" class=\"link-details\" title=\"More Details\"><i class=\"ion ion-android-open\"></i></a>\n            </div>\n          </div>\n        </div>\n      </div>\n\n      <div class=\"col-lg-4 col-md-6 portfolio-item filter-card\" data-wow-delay=\"0.1s\" style=\"position: absolute; left: 760px; top: 777px;\">\n        <div class=\"portfolio-wrap\">\n          <img src=\"/assets/img/portfolio/card3.jpg\" class=\"img-fluid\" alt=\"\">\n          <div class=\"portfolio-info\">\n            <h4><a href=\"#\">Card 3</a></h4>\n            <p>Card</p>\n            <div>\n              <a href=\"/assets/img/portfolio/card3.jpg\" class=\"link-preview\" data-lightbox=\"portfolio\" data-title=\"Card 3\" title=\"Preview\"><i class=\"ion ion-eye\"></i></a>\n              <a href=\"#\" class=\"link-details\" title=\"More Details\"><i class=\"ion ion-android-open\"></i></a>\n            </div>\n          </div>\n        </div>\n      </div>\n\n      <div class=\"col-lg-4 col-md-6 portfolio-item filter-web\" data-wow-delay=\"0.2s\" style=\"position: absolute; left: 380px; top: 817px;\">\n        <div class=\"portfolio-wrap\">\n          <img src=\"/assets/img/portfolio/web1.jpg\" class=\"img-fluid\" alt=\"\">\n          <div class=\"portfolio-info\">\n            <h4><a href=\"#\">Web 1</a></h4>\n            <p>Web</p>\n            <div>\n              <a href=\"/assets/img/portfolio/web1.jpg\" class=\"link-preview\" data-lightbox=\"portfolio\" data-title=\"Web 1\" title=\"Preview\"><i class=\"ion ion-eye\"></i></a>\n              <a href=\"#\" class=\"link-details\" title=\"More Details\"><i class=\"ion ion-android-open\"></i></a>\n            </div>\n          </div>\n        </div>\n      </div>\n\n    </div>\n\n  </div>\n</section>");
 
 /***/ }),
 
@@ -201,7 +292,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<!--==========================\n  Services Section\n============================-->\n<section id=\"services\" class=\"section-bg\" style=\"padding-top: 150px;\">\n    <div class=\"container\">\n  \n      <header class=\"section-header\">\n        <h3>Services</h3>\n        <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.</p>\n      </header>\n  \n      <div class=\"row\">\n  \n        <div class=\"col-md-6 col-lg-4 wow bounceInUp\" data-wow-duration=\"1.4s\">\n          <div class=\"box\">\n            <div class=\"icon\" style=\"background: #fceef3;\"><i class=\"ion-ios-analytics-outline\" style=\"color: #ff689b;\"></i></div>\n            <h4 class=\"title\"><a href=\"\">Lorem Ipsum</a></h4>\n            <p class=\"description\">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>\n          </div>\n        </div>\n        <div class=\"col-md-6 col-lg-4 wow bounceInUp\" data-wow-duration=\"1.4s\">\n          <div class=\"box\">\n            <div class=\"icon\" style=\"background: #fff0da;\"><i class=\"ion-ios-bookmarks-outline\" style=\"color: #e98e06;\"></i></div>\n            <h4 class=\"title\"><a href=\"\">Dolor Sitema</a></h4>\n            <p class=\"description\">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>\n          </div>\n        </div>\n  \n        <div class=\"col-md-6 col-lg-4 wow bounceInUp\" data-wow-delay=\"0.1s\" data-wow-duration=\"1.4s\">\n          <div class=\"box\">\n            <div class=\"icon\" style=\"background: #e6fdfc;\"><i class=\"ion-ios-paper-outline\" style=\"color: #3fcdc7;\"></i></div>\n            <h4 class=\"title\"><a href=\"\">Sed ut perspiciatis</a></h4>\n            <p class=\"description\">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>\n          </div>\n        </div>\n        <div class=\"col-md-6 col-lg-4 wow bounceInUp\" data-wow-delay=\"0.1s\" data-wow-duration=\"1.4s\">\n          <div class=\"box\">\n            <div class=\"icon\" style=\"background: #eafde7;\"><i class=\"ion-ios-speedometer-outline\" style=\"color:#41cf2e;\"></i></div>\n            <h4 class=\"title\"><a href=\"\">Magni Dolores</a></h4>\n            <p class=\"description\">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>\n          </div>\n        </div>\n  \n        <div class=\"col-md-6 col-lg-4 wow bounceInUp\" data-wow-delay=\"0.2s\" data-wow-duration=\"1.4s\">\n          <div class=\"box\">\n            <div class=\"icon\" style=\"background: #e1eeff;\"><i class=\"ion-ios-world-outline\" style=\"color: #2282ff;\"></i></div>\n            <h4 class=\"title\"><a href=\"\">Nemo Enim</a></h4>\n            <p class=\"description\">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>\n          </div>\n        </div>\n        <div class=\"col-md-6 col-lg-4 wow bounceInUp\" data-wow-delay=\"0.2s\" data-wow-duration=\"1.4s\">\n          <div class=\"box\">\n            <div class=\"icon\" style=\"background: #ecebff;\"><i class=\"ion-ios-clock-outline\" style=\"color: #8660fe;\"></i></div>\n            <h4 class=\"title\"><a href=\"\">Eiusmod Tempor</a></h4>\n            <p class=\"description\">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>\n          </div>\n        </div>\n  \n      </div>\n  \n    </div>\n  </section><!-- #services -->");
+/* harmony default export */ __webpack_exports__["default"] = ("<!--==========================\n  Services Section\n============================-->\n<section id=\"services\" class=\"section-bg\" style=\"padding-top: 150px;\">\n    <div class=\"container\">\n  \n      <header class=\"section-header\">\n        <h3>{{data.title}}</h3>\n        <p>{{data.content}}</p>\n      </header>\n  \n      <div class=\"row\">\n  \n        <div *ngFor=\"let service of data.servicesList; let i = index;\" class=\"col-md-6 col-lg-4 wow bounceInUp\" data-wow-delay=\"0.1s\" data-wow-duration=\"1.4s\">\n          <div class=\"box\">\n            <div class=\"icon\" [style.color]=\"service.iconBackground\" style=\"background: #fceef3;\">\n              <i class=\"{{service.iconClass}}\"></i>\n            </div>\n            <h4 class=\"title\">\n              <a *ngIf=\"service.routerLink != null\"  routerLink=\"{{service.routerLink}}\">{{service.title}}</a>\n              <a *ngIf=\"service.externalLink != null\"  href=\"{{service.externalLink}}\">{{service.title}}</a>\n              <a *ngIf=\"service.routerLink == null && service.externalLink == null\" >{{service.title}}</a>\n            </h4>\n            <p class=\"description\" style=\"text-align: justify; text-justify: inter-word;\">{{service.content}}</p>\n          </div>\n        </div>\n  \n      </div>\n  \n    </div>\n  </section><!-- #services -->");
 
 /***/ }),
 
@@ -214,7 +305,20 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<section id=\"team\" class=\"section-bg\" style=\"padding-top: 150px;\">\n  <div class=\"container\">\n    <div class=\"section-header\">\n      <h3>Team</h3>\n      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>\n    </div>\n\n    <div class=\"row\">\n\n      <div class=\"col-lg-3 col-md-6 wow fadeInUp\">\n        <div class=\"member\">\n          <img src=\"assets/img/team/team-1.jpg\" class=\"img-fluid\" alt=\"\">\n          <div class=\"member-info\">\n            <div class=\"member-info-content\">\n              <h4>Walter White</h4>\n              <span>Chief Executive Officer</span>\n              <div class=\"social\">\n                <a href=\"\"><i class=\"fa fa-twitter\"></i></a>\n                <a href=\"\"><i class=\"fa fa-facebook\"></i></a>\n                <a href=\"\"><i class=\"fa fa-google-plus\"></i></a>\n                <a href=\"\"><i class=\"fa fa-linkedin\"></i></a>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n\n      <div class=\"col-lg-3 col-md-6 wow fadeInUp\" data-wow-delay=\"0.1s\">\n        <div class=\"member\">\n          <img src=\"assets/img/team/team-2.jpg\" class=\"img-fluid\" alt=\"\">\n          <div class=\"member-info\">\n            <div class=\"member-info-content\">\n              <h4>Sarah Jhonson</h4>\n              <span>Product Manager</span>\n              <div class=\"social\">\n                <a href=\"\"><i class=\"fa fa-twitter\"></i></a>\n                <a href=\"\"><i class=\"fa fa-facebook\"></i></a>\n                <a href=\"\"><i class=\"fa fa-google-plus\"></i></a>\n                <a href=\"\"><i class=\"fa fa-linkedin\"></i></a>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n\n      <div class=\"col-lg-3 col-md-6 wow fadeInUp\" data-wow-delay=\"0.2s\">\n        <div class=\"member\">\n          <img src=\"assets/img/team/team-3.jpg\" class=\"img-fluid\" alt=\"\">\n          <div class=\"member-info\">\n            <div class=\"member-info-content\">\n              <h4>William Anderson</h4>\n              <span>CTO</span>\n              <div class=\"social\">\n                <a href=\"\"><i class=\"fa fa-twitter\"></i></a>\n                <a href=\"\"><i class=\"fa fa-facebook\"></i></a>\n                <a href=\"\"><i class=\"fa fa-google-plus\"></i></a>\n                <a href=\"\"><i class=\"fa fa-linkedin\"></i></a>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n\n      <div class=\"col-lg-3 col-md-6 wow fadeInUp\" data-wow-delay=\"0.3s\">\n        <div class=\"member\">\n          <img src=\"assets/img/team/team-4.jpg\" class=\"img-fluid\" alt=\"\">\n          <div class=\"member-info\">\n            <div class=\"member-info-content\">\n              <h4>Amanda Jepson</h4>\n              <span>Accountant</span>\n              <div class=\"social\">\n                <a href=\"\"><i class=\"fa fa-twitter\"></i></a>\n                <a href=\"\"><i class=\"fa fa-facebook\"></i></a>\n                <a href=\"\"><i class=\"fa fa-google-plus\"></i></a>\n                <a href=\"\"><i class=\"fa fa-linkedin\"></i></a>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n\n    </div>\n\n    <div class=\"row\">\n      <!-- Team Member-->\n      <div class=\"col-xl-3 col-md-6 mb-4\" *ngFor=\"let teamMember of TeamMembers\">\n        <div class=\"card border-0 shadow\">\n          <img [defaultImage]=\"defaultImage\" [lazyLoad]=\"teamMember.avatarLink\" class=\"card-img-top\" alt=\"...\">\n          <div class=\"card-body text-center\">\n            <h5 class=\"card-title mb-0\">{{teamMember.name}}</h5>\n            <div class=\"card-text text-black-50\">{{teamMember.role}}</div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</section><!-- #team -->");
+/* harmony default export */ __webpack_exports__["default"] = ("<section id=\"team\" class=\"section-bg\" style=\"padding-top: 150px;\">\n  <div class=\"container\">\n    <div class=\"section-header\">\n      <h3>{{data.title}}</h3>\n      <p>{{data.content}}</p>\n    </div>\n\n    <div class=\"row\">\n\n      <div *ngFor=\"let teamMember of data.teamList\" class=\"col-lg-3 col-md-6 wow fadeInUp\">\n        <div class=\"member\">\n          <img [defaultImage]=\"defaultImage\" [lazyLoad]=\"teamMember.imageLink\" class=\"img-fluid\" alt=\"\">\n          <div class=\"member-info\">\n            <div class=\"member-info-content\">\n              <h4>{{teamMember.name}}</h4>\n              <span>{{teamMember.title}}</span>\n              <div class=\"social\">\n                <a *ngIf=\"teamMember.socialLink.twitter!=null\" href=\"{{teamMember.socialLink.twitter}}\"><i class=\"fa fa-twitter\"></i></a>\n                <a *ngIf=\"teamMember.socialLink.facebook!=null\" href=\"{{teamMember.socialLink.facebook}}\"><i class=\"fa fa-facebook\"></i></a>\n                <a *ngIf=\"teamMember.socialLink.linkedin!=null\" href=\"{{teamMember.socialLink.linkedin}}\"><i class=\"fa fa-linkedin\"></i></a>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"row\">\n      <!-- Team Member-->\n      <div class=\"col-xl-3 col-md-6 mb-4\" *ngFor=\"let teamMember of data.teamList\">\n        <div class=\"card border-0 shadow\">\n          <img [defaultImage]=\"defaultImage\" [lazyLoad]=\"teamMember.imageLink\" class=\"card-img-top\" alt=\"...\">\n          <div class=\"card-body text-center\">\n            <h5 class=\"card-title mb-0\">{{teamMember.name}}</h5>\n            <div class=\"card-text text-black-50\">{{teamMember.title}}</div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</section><!-- #team -->");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/component/why-us/why-us.component.html":
+/*!**********************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/component/why-us/why-us.component.html ***!
+  \**********************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n    <!--==========================\n      Why Us Section\n    ============================-->\n    <section id=\"why-us\" class=\"wow fadeIn\">\n        <div class=\"container-fluid\">\n          \n          <header class=\"section-header\">\n            <h3>Why choose us?</h3>\n            <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.</p>\n          </header>\n  \n          <div class=\"row\">\n  \n            <div class=\"col-lg-6\">\n              <div class=\"why-us-img\">\n                <img src=\"assets/img/why-us.jpg\" alt=\"\" class=\"img-fluid\">\n              </div>\n            </div>\n  \n            <div class=\"col-lg-6\">\n              <div class=\"why-us-content\">\n                <p>Molestiae omnis numquam corrupti omnis itaque. Voluptatum quidem impedit. Odio dolorum exercitationem est error omnis repudiandae ad dolorum sit.</p>\n                <p>\n                  Explicabo repellendus quia labore. Non optio quo ea ut ratione et quaerat. Porro facilis deleniti porro consequatur\n                  et temporibus. Labore est odio.\n  \n                  Odio omnis saepe qui. Veniam eaque ipsum. Ea quia voluptatum quis explicabo sed nihil repellat..\n                </p>\n  \n                <div class=\"features wow bounceInUp clearfix\">\n                  <i class=\"fa fa-diamond\" style=\"color: #f058dc;\"></i>\n                  <h4>Corporis dolorem</h4>\n                  <p>Commodi quia voluptatum. Est cupiditate voluptas quaerat officiis ex alias dignissimos et ipsum. Soluta at enim modi ut incidunt dolor et.</p>\n                </div>\n  \n                <div class=\"features wow bounceInUp clearfix\">\n                  <i class=\"fa fa-object-group\" style=\"color: #ffb774;\"></i>\n                  <h4>Eum ut aspernatur</h4>\n                  <p>Molestias eius rerum iusto voluptas et ab cupiditate aut enim. Assumenda animi occaecati. Quo dolore fuga quasi autem aliquid ipsum odit. Perferendis doloremque iure nulla aut.</p>\n                </div>\n                \n                <div class=\"features wow bounceInUp clearfix\">\n                  <i class=\"fa fa-language\" style=\"color: #589af1;\"></i>\n                  <h4>Voluptates dolores</h4>\n                  <p>Voluptates nihil et quis omnis et eaque omnis sint aut. Ducimus dolorum aspernatur. Totam dolores ut enim ullam voluptas distinctio aut.</p>\n                </div>\n                \n              </div>\n  \n            </div>\n  \n          </div>\n  \n        </div>\n        <app-counter></app-counter>\n    </section>");
 
 /***/ }),
 
@@ -463,6 +567,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _component_page_landing_page_landing_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./component/page-landing/page-landing.component */ "./src/app/component/page-landing/page-landing.component.ts");
 /* harmony import */ var _component_page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./component/page-not-found/page-not-found.component */ "./src/app/component/page-not-found/page-not-found.component.ts");
 /* harmony import */ var _component_page_show_html_page_show_html_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./component/page-show-html/page-show-html.component */ "./src/app/component/page-show-html/page-show-html.component.ts");
+/* harmony import */ var _component_admin_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./component/admin/dashboard/dashboard.component */ "./src/app/component/admin/dashboard/dashboard.component.ts");
+/* harmony import */ var _component_admin_login_login_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./component/admin/login/login.component */ "./src/app/component/admin/login/login.component.ts");
+/* harmony import */ var _component_admin_logout_logout_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./component/admin/logout/logout.component */ "./src/app/component/admin/logout/logout.component.ts");
+/* harmony import */ var _component_admin_manage_website_manage_website_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./component/admin/manage-website/manage-website.component */ "./src/app/component/admin/manage-website/manage-website.component.ts");
+/* harmony import */ var _component_admin_view_logs_view_logs_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./component/admin/view-logs/view-logs.component */ "./src/app/component/admin/view-logs/view-logs.component.ts");
+
+
+
+
+
 
 
 
@@ -472,6 +586,11 @@ __webpack_require__.r(__webpack_exports__);
 const routes = [
     { path: '', component: _component_page_landing_page_landing_component__WEBPACK_IMPORTED_MODULE_3__["PageLandingComponent"] },
     { path: '404', component: _component_page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_4__["PageNotFoundComponent"] },
+    { path: 'login', component: _component_admin_login_login_component__WEBPACK_IMPORTED_MODULE_7__["LoginComponent"] },
+    { path: 'logout', component: _component_admin_logout_logout_component__WEBPACK_IMPORTED_MODULE_8__["LogoutComponent"] },
+    { path: 'admin', component: _component_admin_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_6__["DashboardComponent"] },
+    { path: 'admin/manage', component: _component_admin_manage_website_manage_website_component__WEBPACK_IMPORTED_MODULE_9__["ManageWebsiteComponent"] },
+    { path: 'admin/logs', component: _component_admin_view_logs_view_logs_component__WEBPACK_IMPORTED_MODULE_10__["ViewLogsComponent"] },
     { path: ':pageId', component: _component_page_show_html_page_show_html_component__WEBPACK_IMPORTED_MODULE_5__["PageShowHTMLComponent"] },
     { path: '**', component: _component_page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_4__["PageNotFoundComponent"] }
 ];
@@ -581,6 +700,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _component_clients_section_clients_section_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./component/clients-section/clients-section.component */ "./src/app/component/clients-section/clients-section.component.ts");
 /* harmony import */ var _module_website_website_module__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./module/website/website.module */ "./src/app/module/website/website.module.ts");
 /* harmony import */ var _service_data_retrieval_data_retrieval_service__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./service/data-retrieval/data-retrieval.service */ "./src/app/service/data-retrieval/data-retrieval.service.ts");
+/* harmony import */ var _component_counter_counter_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./component/counter/counter.component */ "./src/app/component/counter/counter.component.ts");
+/* harmony import */ var _component_why_us_why_us_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./component/why-us/why-us.component */ "./src/app/component/why-us/why-us.component.ts");
+/* harmony import */ var _component_admin_login_login_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./component/admin/login/login.component */ "./src/app/component/admin/login/login.component.ts");
+/* harmony import */ var _component_admin_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./component/admin/dashboard/dashboard.component */ "./src/app/component/admin/dashboard/dashboard.component.ts");
+/* harmony import */ var _component_blog_post_blog_post_component__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./component/blog-post/blog-post.component */ "./src/app/component/blog-post/blog-post.component.ts");
+/* harmony import */ var _component_admin_logout_logout_component__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./component/admin/logout/logout.component */ "./src/app/component/admin/logout/logout.component.ts");
+/* harmony import */ var _component_admin_manage_website_manage_website_component__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./component/admin/manage-website/manage-website.component */ "./src/app/component/admin/manage-website/manage-website.component.ts");
+/* harmony import */ var _component_admin_view_logs_view_logs_component__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./component/admin/view-logs/view-logs.component */ "./src/app/component/admin/view-logs/view-logs.component.ts");
+
+
+
+
+
+
+
+
 
 
 
@@ -626,7 +761,15 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
             _component_faq_faq_component__WEBPACK_IMPORTED_MODULE_20__["FAQComponent"],
             _component_call_to_action_call_to_action_component__WEBPACK_IMPORTED_MODULE_21__["CallToActionComponent"],
             _component_features_features_component__WEBPACK_IMPORTED_MODULE_22__["FeaturesComponent"],
-            _component_clients_section_clients_section_component__WEBPACK_IMPORTED_MODULE_23__["ClientsSectionComponent"]
+            _component_clients_section_clients_section_component__WEBPACK_IMPORTED_MODULE_23__["ClientsSectionComponent"],
+            _component_counter_counter_component__WEBPACK_IMPORTED_MODULE_26__["CounterComponent"],
+            _component_why_us_why_us_component__WEBPACK_IMPORTED_MODULE_27__["WhyUsComponent"],
+            _component_admin_login_login_component__WEBPACK_IMPORTED_MODULE_28__["LoginComponent"],
+            _component_admin_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_29__["DashboardComponent"],
+            _component_blog_post_blog_post_component__WEBPACK_IMPORTED_MODULE_30__["BlogPostComponent"],
+            _component_admin_logout_logout_component__WEBPACK_IMPORTED_MODULE_31__["LogoutComponent"],
+            _component_admin_manage_website_manage_website_component__WEBPACK_IMPORTED_MODULE_32__["ManageWebsiteComponent"],
+            _component_admin_view_logs_view_logs_component__WEBPACK_IMPORTED_MODULE_33__["ViewLogsComponent"]
         ],
         imports: [
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
@@ -646,6 +789,401 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_9__["AppComponent"]]
     })
 ], AppModule);
+
+
+
+/***/ }),
+
+/***/ "./src/app/component/admin/dashboard/dashboard.component.css":
+/*!*******************************************************************!*\
+  !*** ./src/app/component/admin/dashboard/dashboard.component.css ***!
+  \*******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudC9hZG1pbi9kYXNoYm9hcmQvZGFzaGJvYXJkLmNvbXBvbmVudC5jc3MifQ== */");
+
+/***/ }),
+
+/***/ "./src/app/component/admin/dashboard/dashboard.component.ts":
+/*!******************************************************************!*\
+  !*** ./src/app/component/admin/dashboard/dashboard.component.ts ***!
+  \******************************************************************/
+/*! exports provided: DashboardComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DashboardComponent", function() { return DashboardComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var ngx_spinner__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ngx-spinner */ "./node_modules/ngx-spinner/fesm2015/ngx-spinner.js");
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var src_app_service_user_authentication_user_authentication_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! src/app/service/user-authentication/user-authentication.service */ "./src/app/service/user-authentication/user-authentication.service.ts");
+
+
+
+
+
+
+let DashboardComponent = class DashboardComponent {
+    constructor(spinner, titleService, router, userAuthenticationService) {
+        this.spinner = spinner;
+        this.titleService = titleService;
+        this.router = router;
+        this.userAuthenticationService = userAuthenticationService;
+        titleService.setTitle("Dashboard");
+        if (userAuthenticationService.isUserLoggedIn() == false) {
+            this.router.navigate(['/login']);
+            return;
+        }
+    }
+    ngOnInit() {
+    }
+};
+DashboardComponent.ctorParameters = () => [
+    { type: ngx_spinner__WEBPACK_IMPORTED_MODULE_2__["NgxSpinnerService"] },
+    { type: _angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__["Title"] },
+    { type: _angular_router__WEBPACK_IMPORTED_MODULE_4__["Router"] },
+    { type: src_app_service_user_authentication_user_authentication_service__WEBPACK_IMPORTED_MODULE_5__["UserAuthenticationService"] }
+];
+DashboardComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-dashboard',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./dashboard.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/component/admin/dashboard/dashboard.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./dashboard.component.css */ "./src/app/component/admin/dashboard/dashboard.component.css")).default]
+    })
+], DashboardComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/component/admin/login/login.component.css":
+/*!***********************************************************!*\
+  !*** ./src/app/component/admin/login/login.component.css ***!
+  \***********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudC9hZG1pbi9sb2dpbi9sb2dpbi5jb21wb25lbnQuY3NzIn0= */");
+
+/***/ }),
+
+/***/ "./src/app/component/admin/login/login.component.ts":
+/*!**********************************************************!*\
+  !*** ./src/app/component/admin/login/login.component.ts ***!
+  \**********************************************************/
+/*! exports provided: LoginComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LoginComponent", function() { return LoginComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var ngx_spinner__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ngx-spinner */ "./node_modules/ngx-spinner/fesm2015/ngx-spinner.js");
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var src_app_service_user_authentication_user_authentication_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! src/app/service/user-authentication/user-authentication.service */ "./src/app/service/user-authentication/user-authentication.service.ts");
+/* harmony import */ var src_app_service_data_retrieval_data_retrieval_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! src/app/service/data-retrieval/data-retrieval.service */ "./src/app/service/data-retrieval/data-retrieval.service.ts");
+
+
+
+
+
+
+
+let LoginComponent = class LoginComponent {
+    constructor(dataRetrievalService, spinner, titleService, router, userAuthenticationService) {
+        this.dataRetrievalService = dataRetrievalService;
+        this.spinner = spinner;
+        this.titleService = titleService;
+        this.router = router;
+        this.userAuthenticationService = userAuthenticationService;
+        this.inputUserPassword = "";
+        this.error = "";
+        titleService.setTitle("Login || Admin Dashboard");
+        if (userAuthenticationService.isUserLoggedIn() == true) {
+            this.router.navigate(['/admin']);
+            return;
+        }
+    }
+    ngOnInit() {
+    }
+    userLogin() {
+        this.spinner.show();
+        this.dataRetrievalService.getAdminData(this.inputUserPassword).subscribe((data) => {
+            /* Condition to verify that the data received is not valid (Due to token invalid) */
+            if (data == null || data["data"] == null) {
+                /* Token is not valid */
+                this.spinner.hide();
+                return;
+            }
+            this.userAuthenticationService.makeUserLoggedIn(this.inputUserPassword);
+            this.spinner.hide();
+            this.router.navigate(['/admin']);
+        }, (error) => {
+            this.error = error;
+            console.log(error);
+        });
+    }
+};
+LoginComponent.ctorParameters = () => [
+    { type: src_app_service_data_retrieval_data_retrieval_service__WEBPACK_IMPORTED_MODULE_6__["DataRetrievalService"] },
+    { type: ngx_spinner__WEBPACK_IMPORTED_MODULE_2__["NgxSpinnerService"] },
+    { type: _angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__["Title"] },
+    { type: _angular_router__WEBPACK_IMPORTED_MODULE_4__["Router"] },
+    { type: src_app_service_user_authentication_user_authentication_service__WEBPACK_IMPORTED_MODULE_5__["UserAuthenticationService"] }
+];
+LoginComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-login',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./login.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/component/admin/login/login.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./login.component.css */ "./src/app/component/admin/login/login.component.css")).default]
+    })
+], LoginComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/component/admin/logout/logout.component.css":
+/*!*************************************************************!*\
+  !*** ./src/app/component/admin/logout/logout.component.css ***!
+  \*************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudC9hZG1pbi9sb2dvdXQvbG9nb3V0LmNvbXBvbmVudC5jc3MifQ== */");
+
+/***/ }),
+
+/***/ "./src/app/component/admin/logout/logout.component.ts":
+/*!************************************************************!*\
+  !*** ./src/app/component/admin/logout/logout.component.ts ***!
+  \************************************************************/
+/*! exports provided: LogoutComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LogoutComponent", function() { return LogoutComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var src_app_service_data_retrieval_data_retrieval_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/service/data-retrieval/data-retrieval.service */ "./src/app/service/data-retrieval/data-retrieval.service.ts");
+/* harmony import */ var ngx_spinner__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ngx-spinner */ "./node_modules/ngx-spinner/fesm2015/ngx-spinner.js");
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var src_app_service_user_authentication_user_authentication_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! src/app/service/user-authentication/user-authentication.service */ "./src/app/service/user-authentication/user-authentication.service.ts");
+
+
+
+
+
+
+
+let LogoutComponent = class LogoutComponent {
+    constructor(dataRetrievalService, spinner, titleService, router, userAuthenticationService) {
+        this.dataRetrievalService = dataRetrievalService;
+        this.spinner = spinner;
+        this.titleService = titleService;
+        this.router = router;
+        this.userAuthenticationService = userAuthenticationService;
+        titleService.setTitle("Logout || Admin Dashboard");
+        if (userAuthenticationService.isUserLoggedIn() == true) {
+            userAuthenticationService.makeUserLoggedOut();
+        }
+        this.router.navigate(['/']);
+    }
+    ngOnInit() {
+    }
+};
+LogoutComponent.ctorParameters = () => [
+    { type: src_app_service_data_retrieval_data_retrieval_service__WEBPACK_IMPORTED_MODULE_2__["DataRetrievalService"] },
+    { type: ngx_spinner__WEBPACK_IMPORTED_MODULE_3__["NgxSpinnerService"] },
+    { type: _angular_platform_browser__WEBPACK_IMPORTED_MODULE_4__["Title"] },
+    { type: _angular_router__WEBPACK_IMPORTED_MODULE_5__["Router"] },
+    { type: src_app_service_user_authentication_user_authentication_service__WEBPACK_IMPORTED_MODULE_6__["UserAuthenticationService"] }
+];
+LogoutComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-logout',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./logout.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/component/admin/logout/logout.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./logout.component.css */ "./src/app/component/admin/logout/logout.component.css")).default]
+    })
+], LogoutComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/component/admin/manage-website/manage-website.component.css":
+/*!*****************************************************************************!*\
+  !*** ./src/app/component/admin/manage-website/manage-website.component.css ***!
+  \*****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudC9hZG1pbi9tYW5hZ2Utd2Vic2l0ZS9tYW5hZ2Utd2Vic2l0ZS5jb21wb25lbnQuY3NzIn0= */");
+
+/***/ }),
+
+/***/ "./src/app/component/admin/manage-website/manage-website.component.ts":
+/*!****************************************************************************!*\
+  !*** ./src/app/component/admin/manage-website/manage-website.component.ts ***!
+  \****************************************************************************/
+/*! exports provided: ManageWebsiteComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ManageWebsiteComponent", function() { return ManageWebsiteComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var src_app_service_data_retrieval_data_retrieval_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/service/data-retrieval/data-retrieval.service */ "./src/app/service/data-retrieval/data-retrieval.service.ts");
+/* harmony import */ var src_app_module_website_website_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/app/module/website/website.module */ "./src/app/module/website/website.module.ts");
+/* harmony import */ var ngx_spinner__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ngx-spinner */ "./node_modules/ngx-spinner/fesm2015/ngx-spinner.js");
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
+
+
+
+
+
+
+let ManageWebsiteComponent = class ManageWebsiteComponent {
+    constructor(dataRetrievalService, spinner, titleService) {
+        this.dataRetrievalService = dataRetrievalService;
+        this.spinner = spinner;
+        this.titleService = titleService;
+        this.websiteData = new src_app_module_website_website_module__WEBPACK_IMPORTED_MODULE_3__["WebSiteData"]();
+        this.error = "";
+    }
+    ngOnInit() {
+        this.titleService.setTitle("Manage Pages");
+        this.spinner.show();
+        this.dataRetrievalService.getWebsiteData().subscribe((data) => {
+            this.websiteData = data;
+            this.spinner.hide();
+        }, (error) => {
+            this.error = error;
+            console.log(error);
+            this.spinner.hide();
+        });
+    }
+};
+ManageWebsiteComponent.ctorParameters = () => [
+    { type: src_app_service_data_retrieval_data_retrieval_service__WEBPACK_IMPORTED_MODULE_2__["DataRetrievalService"] },
+    { type: ngx_spinner__WEBPACK_IMPORTED_MODULE_4__["NgxSpinnerService"] },
+    { type: _angular_platform_browser__WEBPACK_IMPORTED_MODULE_5__["Title"] }
+];
+ManageWebsiteComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-manage-website',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./manage-website.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/component/admin/manage-website/manage-website.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./manage-website.component.css */ "./src/app/component/admin/manage-website/manage-website.component.css")).default]
+    })
+], ManageWebsiteComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/component/admin/view-logs/view-logs.component.css":
+/*!*******************************************************************!*\
+  !*** ./src/app/component/admin/view-logs/view-logs.component.css ***!
+  \*******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudC9hZG1pbi92aWV3LWxvZ3Mvdmlldy1sb2dzLmNvbXBvbmVudC5jc3MifQ== */");
+
+/***/ }),
+
+/***/ "./src/app/component/admin/view-logs/view-logs.component.ts":
+/*!******************************************************************!*\
+  !*** ./src/app/component/admin/view-logs/view-logs.component.ts ***!
+  \******************************************************************/
+/*! exports provided: ViewLogsComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ViewLogsComponent", function() { return ViewLogsComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let ViewLogsComponent = class ViewLogsComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+ViewLogsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-view-logs',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./view-logs.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/component/admin/view-logs/view-logs.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./view-logs.component.css */ "./src/app/component/admin/view-logs/view-logs.component.css")).default]
+    })
+], ViewLogsComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/component/blog-post/blog-post.component.css":
+/*!*************************************************************!*\
+  !*** ./src/app/component/blog-post/blog-post.component.css ***!
+  \*************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudC9ibG9nLXBvc3QvYmxvZy1wb3N0LmNvbXBvbmVudC5jc3MifQ== */");
+
+/***/ }),
+
+/***/ "./src/app/component/blog-post/blog-post.component.ts":
+/*!************************************************************!*\
+  !*** ./src/app/component/blog-post/blog-post.component.ts ***!
+  \************************************************************/
+/*! exports provided: BlogPostComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BlogPostComponent", function() { return BlogPostComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let BlogPostComponent = class BlogPostComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])()
+], BlogPostComponent.prototype, "data", void 0);
+BlogPostComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-blog-post',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./blog-post.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/component/blog-post/blog-post.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./blog-post.component.css */ "./src/app/component/blog-post/blog-post.component.css")).default]
+    })
+], BlogPostComponent);
 
 
 
@@ -683,6 +1221,9 @@ let CallToActionComponent = class CallToActionComponent {
     ngOnInit() {
     }
 };
+tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])()
+], CallToActionComponent.prototype, "data", void 0);
 CallToActionComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-call-to-action',
@@ -727,6 +1268,9 @@ let ClientsSectionComponent = class ClientsSectionComponent {
     ngOnInit() {
     }
 };
+tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])()
+], ClientsSectionComponent.prototype, "data", void 0);
 ClientsSectionComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-clients-section',
@@ -771,6 +1315,9 @@ let ClientsComponent = class ClientsComponent {
     ngOnInit() {
     }
 };
+tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])()
+], ClientsComponent.prototype, "data", void 0);
 ClientsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-clients',
@@ -778,6 +1325,75 @@ ClientsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./clients.component.css */ "./src/app/component/clients/clients.component.css")).default]
     })
 ], ClientsComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/component/counter/counter.component.css":
+/*!*********************************************************!*\
+  !*** ./src/app/component/counter/counter.component.css ***!
+  \*********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudC9jb3VudGVyL2NvdW50ZXIuY29tcG9uZW50LmNzcyJ9 */");
+
+/***/ }),
+
+/***/ "./src/app/component/counter/counter.component.ts":
+/*!********************************************************!*\
+  !*** ./src/app/component/counter/counter.component.ts ***!
+  \********************************************************/
+/*! exports provided: CounterComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CounterComponent", function() { return CounterComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let CounterComponent = class CounterComponent {
+    constructor() {
+        this.data = {
+            "counterList": [
+                {
+                    "title": "Clients",
+                    "counter": 274
+                },
+                {
+                    "title": "Projects",
+                    "counter": 420
+                },
+                {
+                    "title": "Hours Of Support",
+                    "counter": 1365
+                },
+                {
+                    "title": "Hard Workers",
+                    "counter": 20
+                }
+            ]
+        };
+    }
+    ngOnInit() {
+        $('[data-toggle="counter-up"]').counterUp({
+            delay: 10,
+            time: 1000
+        });
+    }
+};
+CounterComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-counter',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./counter.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/component/counter/counter.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./counter.component.css */ "./src/app/component/counter/counter.component.css")).default]
+    })
+], CounterComponent);
 
 
 
@@ -815,6 +1431,9 @@ let FAQComponent = class FAQComponent {
     ngOnInit() {
     }
 };
+tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])()
+], FAQComponent.prototype, "data", void 0);
 FAQComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-faq',
@@ -859,6 +1478,9 @@ let FeaturesComponent = class FeaturesComponent {
     ngOnInit() {
     }
 };
+tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])()
+], FeaturesComponent.prototype, "data", void 0);
 FeaturesComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-features',
@@ -1007,21 +1629,45 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 /* harmony import */ var src_app_service_data_retrieval_data_retrieval_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/service/data-retrieval/data-retrieval.service */ "./src/app/service/data-retrieval/data-retrieval.service.ts");
 /* harmony import */ var src_app_module_website_website_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/app/module/website/website.module */ "./src/app/module/website/website.module.ts");
+/* harmony import */ var src_app_service_user_authentication_user_authentication_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! src/app/service/user-authentication/user-authentication.service */ "./src/app/service/user-authentication/user-authentication.service.ts");
+
 
 
 
 
 let NavBarComponent = class NavBarComponent {
-    constructor(dataRetrivalService) {
+    constructor(dataRetrivalService, userAuthenticationService) {
         this.dataRetrivalService = dataRetrivalService;
+        this.userAuthenticationService = userAuthenticationService;
         this.socialLinks = new src_app_module_website_website_module__WEBPACK_IMPORTED_MODULE_3__["SocialLinks"]();
         this.navbar = new src_app_module_website_website_module__WEBPACK_IMPORTED_MODULE_3__["NavBar"]();
         this.error = "";
     }
     ngOnInit() {
+        this.isUserLoggedIn = this.userAuthenticationService.isUserLoggedIn();
         this.dataRetrivalService.getNavbarData().subscribe((data) => {
             this.navbar = data;
             this.socialLinks = this.navbar.socialLinks;
+            if (this.isUserLoggedIn == true) {
+                this.navbar.navigationLinks = [
+                    {
+                        "title": "Home",
+                        "link": "/admin"
+                    },
+                    {
+                        "title": "Manage",
+                        "link": "/admin/manage"
+                    },
+                    {
+                        "title": "View Logs",
+                        "link": "/admin/logs"
+                    },
+                    {
+                        "title": "Logout",
+                        "link": "/logout"
+                    }
+                ];
+            }
         }, (error) => {
             this.error = error;
             console.log(error);
@@ -1029,7 +1675,8 @@ let NavBarComponent = class NavBarComponent {
     }
 };
 NavBarComponent.ctorParameters = () => [
-    { type: src_app_service_data_retrieval_data_retrieval_service__WEBPACK_IMPORTED_MODULE_2__["DataRetrievalService"] }
+    { type: src_app_service_data_retrieval_data_retrieval_service__WEBPACK_IMPORTED_MODULE_2__["DataRetrievalService"] },
+    { type: src_app_service_user_authentication_user_authentication_service__WEBPACK_IMPORTED_MODULE_4__["UserAuthenticationService"] }
 ];
 NavBarComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
@@ -1233,6 +1880,7 @@ let PageShowHTMLComponent = class PageShowHTMLComponent {
         }, (error) => {
             this.error = error;
             console.log(error);
+            this.spinner.hide();
         });
     }
 };
@@ -1304,6 +1952,9 @@ PortfolioComponent.ctorParameters = () => [
     { type: ngx_spinner__WEBPACK_IMPORTED_MODULE_3__["NgxSpinnerService"] },
     { type: _angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__["Title"] }
 ];
+tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])()
+], PortfolioComponent.prototype, "data", void 0);
 PortfolioComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-portfolio',
@@ -1348,6 +1999,9 @@ let PricingComponent = class PricingComponent {
     ngOnInit() {
     }
 };
+tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])()
+], PricingComponent.prototype, "data", void 0);
 PricingComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-pricing',
@@ -1392,6 +2046,9 @@ let ServicesComponent = class ServicesComponent {
     ngOnInit() {
     }
 };
+tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])()
+], ServicesComponent.prototype, "data", void 0);
 ServicesComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-services',
@@ -1464,6 +2121,9 @@ TeamComponent.ctorParameters = () => [
     { type: _angular_router__WEBPACK_IMPORTED_MODULE_3__["ActivatedRoute"] },
     { type: _service_data_retrieval_data_retrieval_service__WEBPACK_IMPORTED_MODULE_5__["DataRetrievalService"] }
 ];
+tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])()
+], TeamComponent.prototype, "data", void 0);
 TeamComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-team',
@@ -1471,6 +2131,50 @@ TeamComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./team.component.css */ "./src/app/component/team/team.component.css")).default]
     })
 ], TeamComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/component/why-us/why-us.component.css":
+/*!*******************************************************!*\
+  !*** ./src/app/component/why-us/why-us.component.css ***!
+  \*******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudC93aHktdXMvd2h5LXVzLmNvbXBvbmVudC5jc3MifQ== */");
+
+/***/ }),
+
+/***/ "./src/app/component/why-us/why-us.component.ts":
+/*!******************************************************!*\
+  !*** ./src/app/component/why-us/why-us.component.ts ***!
+  \******************************************************/
+/*! exports provided: WhyUsComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "WhyUsComponent", function() { return WhyUsComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let WhyUsComponent = class WhyUsComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+WhyUsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-why-us',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./why-us.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/component/why-us/why-us.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./why-us.component.css */ "./src/app/component/why-us/why-us.component.css")).default]
+    })
+], WhyUsComponent);
 
 
 
@@ -1601,22 +2305,34 @@ __webpack_require__.r(__webpack_exports__);
 let DataRetrievalService = class DataRetrievalService {
     constructor(httpClient) {
         this.httpClient = httpClient;
-        this.baseurl = '/assets/data.json';
+        //baseurl = '/assets/data.json';
+        this.baseurl = 'https://api.jsonbin.io/b/5e2e081f593fd7418570e3f3';
         // Http Headers
         this.httpOptions = {
             headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]({
-                'Content-Type': 'application/json'
+                'Content-Type': 'application/json',
+                'secret-key': '$2a$10$Czs941C24iIp1xHGnweHN.6yQxfndYyrw3bZCQFQzM.COGSeDkdTi'
             })
         };
     }
     getNavbarData() {
-        return this.httpClient.get(this.baseurl).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])((data) => { return data.navbar; }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["retry"])(1), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["catchError"])(this.handleError));
+        return this.httpClient.get(this.baseurl, this.httpOptions).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])((data) => { return data.navbar; }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["retry"])(1), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["catchError"])(this.handleError));
     }
     getFooterData() {
-        return this.httpClient.get(this.baseurl).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])((data) => { return data.footer; }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["retry"])(1), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["catchError"])(this.handleError));
+        return this.httpClient.get(this.baseurl, this.httpOptions).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])((data) => { return data.footer; }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["retry"])(1), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["catchError"])(this.handleError));
     }
     getHtmlPageData(pageId) {
-        return this.httpClient.get(this.baseurl).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])((data) => { return data.htmlPages[pageId]; }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["retry"])(1), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["catchError"])(this.handleError));
+        return this.httpClient.get(this.baseurl, this.httpOptions).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])((data) => { return data.htmlPages[pageId]; }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["retry"])(1), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["catchError"])(this.handleError));
+    }
+    getAdminData(authKey) {
+        var adminBaseurl = "https://shop.bulltronics.com/SrvHosting?id=5d3f4b82d1c7ae038bb112e4&operation=GET_ADMIN_DATA&key=" + authKey;
+        return this.httpClient.get(adminBaseurl).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["retry"])(1), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["catchError"])(this.handleError));
+    }
+    getWebsiteData() {
+        return this.httpClient.get(this.baseurl, this.httpOptions).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])((data) => { return data; }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["retry"])(1), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["catchError"])(this.handleError));
+    }
+    updateWebsiteData(websiteData) {
+        return this.httpClient.put(this.baseurl, websiteData, this.httpOptions).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["retry"])(1), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["catchError"])(this.handleError));
     }
     handleError(error) {
         let errorMessage = '';
@@ -1640,6 +2356,61 @@ DataRetrievalService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         providedIn: 'root'
     })
 ], DataRetrievalService);
+
+
+
+/***/ }),
+
+/***/ "./src/app/service/user-authentication/user-authentication.service.ts":
+/*!****************************************************************************!*\
+  !*** ./src/app/service/user-authentication/user-authentication.service.ts ***!
+  \****************************************************************************/
+/*! exports provided: UserAuthenticationService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UserAuthenticationService", function() { return UserAuthenticationService; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _data_retrieval_data_retrieval_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../data-retrieval/data-retrieval.service */ "./src/app/service/data-retrieval/data-retrieval.service.ts");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm2015/index.js");
+
+
+
+
+let UserAuthenticationService = class UserAuthenticationService {
+    constructor(dataRetrievalService) {
+        this.dataRetrievalService = dataRetrievalService;
+        this.userLoginStatus = new rxjs__WEBPACK_IMPORTED_MODULE_3__["BehaviorSubject"]([]);
+        this.error = "";
+    }
+    isUserLoggedIn() {
+        var token = localStorage.getItem('authenticationToken');
+        if (token == null) {
+            console.log("No Token Available");
+            return false;
+        }
+        else {
+            console.log("Token is: " + token);
+            return true;
+        }
+    }
+    makeUserLoggedIn(token) {
+        localStorage.setItem('authenticationToken', token);
+    }
+    makeUserLoggedOut() {
+        localStorage.removeItem('authenticationToken');
+    }
+};
+UserAuthenticationService.ctorParameters = () => [
+    { type: _data_retrieval_data_retrieval_service__WEBPACK_IMPORTED_MODULE_2__["DataRetrievalService"] }
+];
+UserAuthenticationService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
+        providedIn: 'root'
+    })
+], UserAuthenticationService);
 
 
 
